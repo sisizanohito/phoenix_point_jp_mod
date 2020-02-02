@@ -9,9 +9,12 @@ namespace phoenix_point_JP
 {
     class Program
     {
-        const string WORKDIR = "./Resources/";
+        public static readonly string WORKDIR = "./Resources/";
+        public static readonly string OUTDIR = "./Output/";
         static void Main(string[] args)
         {
+            
+
             IEnumerable<string> files =
             System.IO.Directory.EnumerateFiles(
             WORKDIR, "*.tsv", System.IO.SearchOption.AllDirectories);
@@ -20,7 +23,7 @@ namespace phoenix_point_JP
             foreach (string f in files)
             {
                 Console.WriteLine(f);
-                ReadTSV(f);
+                CreatePPData(f);
             }
         #if DEBUG
             Console.ReadKey();
@@ -28,30 +31,10 @@ namespace phoenix_point_JP
 
         }
 
-        static void ReadTSV(string fileName)
+        static void CreatePPData(string fileName)
         {
-            StreamReader sr = new StreamReader(fileName, Encoding.UTF8);
-            try
-            {
-                while (sr.EndOfStream == false)
-                {
-                    string line = sr.ReadLine();
-                    //string[] fields = line.Split(',');
-                    string[] fields = line.Split('\t'); //TSVファイルの場合
+           
 
-                    for (int i = 0; i < fields.Length; i++)
-                    {
-                        Console.Write(fields[i] + "  ");
-                    }
-                    Console.Write("------\r\n");
-
-                }
-            }
-            finally
-            {
-                sr.Close();
-            }
-            
         }
     }
 }
