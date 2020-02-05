@@ -14,16 +14,16 @@ namespace phoenix_point_JP
     class PPData
     {
         private Header header;
-        private string footer;//復元用に必要なデータらしい
+        private string footer;//復元用に必要なデータ
 
-        public Dictionary<LangCode, LangData> LangData;
+        public Dictionary<LangCode, LangData> LangDic;
         public Header Header { get => header; }
         public string Footer { get => footer; }
 
         public PPData(string filename)
         {
             this.header = new Header();
-            LangData = new Dictionary<LangCode, LangData>();
+            LangDic = new Dictionary<LangCode, LangData>();
 
             StreamReader sr = new StreamReader(filename, Encoding.UTF8);
             try
@@ -37,24 +37,59 @@ namespace phoenix_point_JP
                 header.raw = new string[4] { Type, Name, hoge, row };
                 header.name = Name.Split('\t')[1];
                 header.row = row.Split('\t')[1];
-
-                string[] langCode = SettingInfo.GetIniValues(Program.WORKDIR + "lang.ini", header.name, "Lang");
+                LangCode[] langCode = SettingInfo.GetIniValues(Program.WORKDIR + "lang.ini", header.name, "Lang");
+                int now = 0;
+                int max = Int32.Parse(header.row);
                 while (sr.EndOfStream == false)
                 {
                     string line = sr.ReadLine();
                     string[] fields = line.Split('\t'); //TSVファイルの場合
-                    for (int i = 0; i < fields.Length; i++)
+                    if(now< max)
                     {
-                        Console.Write(fields[i] + "  ");
-                    }
-                    Console.Write("------\r\n");
+                        for (int i = 0; i < fields.Length; i++)
+                        {
+                            fields[i] = TrimStr(fields[i]);
+                        }
 
+                        string key = fields[(int)TSVCOL.Key];
+                        int langNum = Int32.Parse(fields[(int)TSVCOL.Num]);
+                        for (int i = 0; i < langNum; i++)
+                        {
+                            UpdateDic(langCode[i], key, fields[(int)TSVCOL.Begin+i]);
+                            //Console.Write(fields[i] + "  ");
+                        }
+                        //Console.Write("------\r\n");
+                    }
+                    else
+                    {
+                        footer = line;
+                        break;
+                    }
+
+                    now++;
                 }
+                
             }
             finally
             {
                 sr.Close();
             }
+        }
+        private string TrimStr(string data)
+        {
+            return data.Substring(1, data.Length - 2);//先頭と末尾の"をとる
+        }
+        private void UpdateDic(LangCode langCode, string key, string text)
+        {
+            if (!LangDic.ContainsKey(langCode))//はじめだったら
+            {
+                Dictionary<string, string> ldata = new LangData();
+                ldata.Add(key, text);
+                LangDic.Add(langCode, ldata);
+                return;
+            }
+            LangData lang = LangDic[langCode];
+            lang.Add(key, text);
         }
     }
 
@@ -64,5 +99,13 @@ namespace phoenix_point_JP
         public string name;
         public string row;
         public string[] raw; //生データ
+    }
+    enum TSVCOL
+    {
+        Key,
+        Type,
+        SETSUMEI,
+        Num,
+        Begin
     }
 }
