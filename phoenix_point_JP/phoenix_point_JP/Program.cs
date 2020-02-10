@@ -34,7 +34,8 @@ namespace phoenix_point_JP
         static void CreatePPData(string fileName)
         {
             PPData pPData = new PPData(fileName);
-
+            pPData.exportPO(OUTDIR);
+            pPData.exportPOT(OUTDIR);
         }
     }
 }

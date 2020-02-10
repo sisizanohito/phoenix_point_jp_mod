@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -75,9 +76,85 @@ namespace phoenix_point_JP
                 sr.Close();
             }
         }
+        public void exportPO(string folder)
+        {
+            foreach (KeyValuePair<LangCode, LangData> pairdic in LangDic)
+            {
+                string subpath = folder + "/" + pairdic.Key;
+                if (!Directory.Exists(subpath))
+                {
+                    Directory.CreateDirectory(subpath);
+                }
+                
+                string filepath = subpath + "/" + Header.name+ ".po";
+                StreamWriter sw = new StreamWriter(filepath, false);
+                //sw.WriteLine("#"+ DateTime.Now.ToString());
+                foreach (KeyValuePair<string, string> pairdata in pairdic.Value)
+                {
+                    string id = pairdata.Key;
+                    string text = FixText(pairdata.Value);
+                    string template = text;
+                    if (LangDic.ContainsKey("en"))
+                    {
+                        template = FixText(LangDic["en"][id]);
+                    }
+                    else
+                    {
+                        Debug.Assert(!LangDic.ContainsKey("en"));
+                    }
+                    sw.WriteLine($"msgctxt \"{id}\"");
+                    sw.WriteLine($"msgid \"{template}\"");
+                    sw.WriteLine($"msgstr \"{text}\"");
+                    sw.WriteLine();
+                }
+                sw.Close();
+            }
+            
+        }
+
+        public void exportPOT(string folder)
+        {
+            foreach (KeyValuePair<LangCode, LangData> pairdic in LangDic)
+            {
+                string subpath = folder + "/" + pairdic.Key;
+                if (!Directory.Exists(subpath))
+                {
+                    Directory.CreateDirectory(subpath);
+                }
+
+                string filepath = subpath + "/" + Header.name + ".pot";
+                StreamWriter sw = new StreamWriter(filepath, false);
+                //sw.WriteLine("#" + DateTime.Now.ToString());
+                foreach (KeyValuePair<string, string> pairdata in pairdic.Value)
+                {
+                    string id = pairdata.Key;
+                    string text = "";
+                    string template = text;
+                    if (LangDic.ContainsKey("en"))
+                    {
+                        template = FixText(LangDic["en"][id]);
+                    }
+                    else
+                    {
+                        Debug.Assert(!LangDic.ContainsKey("en"));
+                    }
+                    sw.WriteLine($"msgctxt \"{id}\"");
+                    sw.WriteLine($"msgid \"{template}\"");
+                    sw.WriteLine($"msgstr \"{text}\"");
+                    sw.WriteLine();
+                }
+                sw.Close();
+            }
+
+        }
         private string TrimStr(string data)
         {
             return data.Substring(1, data.Length - 2);//先頭と末尾の"をとる
+        }
+        private string FixText(string text)
+        {
+            text = text.Replace("\"", "{d-quotation}");
+            return text;
         }
         private void UpdateDic(LangCode langCode, string key, string text)
         {
