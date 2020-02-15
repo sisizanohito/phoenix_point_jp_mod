@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Karambolo.PO;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -14,17 +15,21 @@ namespace phoenix_point_JP
 
     class PPData
     {
+        //復元用に必要なデータ
         private Header header;
-        private string footer;//復元用に必要なデータ
+        private string footer;
+        private Dictionary<string, string> rawtext;
 
         public Dictionary<LangCode, LangData> LangDic;
         public Header Header { get => header; }
         public string Footer { get => footer; }
 
+
         public PPData(string filename)
         {
             this.header = new Header();
             LangDic = new Dictionary<LangCode, LangData>();
+            rawtext = new Dictionary<string, string>();
 
             StreamReader sr = new StreamReader(filename, Encoding.UTF8);
             try
@@ -39,6 +44,7 @@ namespace phoenix_point_JP
                 header.name = Name.Split('\t')[1];
                 header.row = row.Split('\t')[1];
                 LangCode[] langCode = SettingInfo.GetIniValues(Program.WORKDIR + "lang.ini", header.name, "Lang");
+                header.langcode = langCode;
                 int now = 0;
                 int max = Int32.Parse(header.row);
                 while (sr.EndOfStream == false)
@@ -60,6 +66,7 @@ namespace phoenix_point_JP
                             //Console.Write(fields[i] + "  ");
                         }
                         //Console.Write("------\r\n");
+                        rawtext.Add(key, line);
                     }
                     else
                     {
@@ -76,6 +83,34 @@ namespace phoenix_point_JP
                 sr.Close();
             }
         }
+
+        public void exportTSV(string folder)
+        {
+            var ja = readJAPO(header.name);
+            int enpos = Array.IndexOf(header.langcode, "en");
+            Debug.Assert(enpos >= 0);
+
+            string filename = SettingInfo.GetIniValue(Program.WORKDIR + "lang.ini", header.name, "FileName");
+            string filepath = folder + "/" + filename + ".tsv";
+
+            StreamWriter sw = new StreamWriter(filepath, false);
+            //header出力
+            sw.WriteLine(header.raw[0]);
+            sw.WriteLine(header.raw[1]);
+            sw.WriteLine(header.raw[2]);
+            sw.WriteLine(header.raw[3]);
+
+            foreach (KeyValuePair<string, string> raw in rawtext)
+            {
+                string[] fields = raw.Value.Split('\t'); //TSVファイルの場合
+                fields[(int)TSVCOL.Begin + enpos] = $"\"{ja[raw.Key]}\"";
+                sw.WriteLine(string.Join("\t", fields));
+            }
+            sw.WriteLine(footer);
+            sw.Close();
+
+        }
+
         public void exportPO(string folder)
         {
             foreach (KeyValuePair<LangCode, LangData> pairdic in LangDic)
@@ -100,7 +135,7 @@ namespace phoenix_point_JP
                     }
                     else
                     {
-                        Debug.Assert(!LangDic.ContainsKey("en"));
+                        Debug.Assert(LangDic.ContainsKey("en"));
                     }
                     sw.WriteLine($"msgctxt \"{id}\"");
                     sw.WriteLine($"msgid \"{template}\"");
@@ -136,6 +171,65 @@ namespace phoenix_point_JP
                     }
                     else
                     {
+                        Debug.Assert(LangDic.ContainsKey("en"));
+                    }
+                    sw.WriteLine($"msgctxt \"{id}\"");
+                    sw.WriteLine($"msgid \"{template}\"");
+                    sw.WriteLine($"msgstr \"{text}\"");
+                    sw.WriteLine();
+                }
+                sw.Close();
+            }
+
+        }
+
+        public void exportJA(string folder)
+        {
+            var pairdic = LangDic["en"];
+            {
+                string subpath = folder + "/ja";
+                if (!Directory.Exists(subpath))
+                {
+                    Directory.CreateDirectory(subpath);
+                }
+
+                string filepath = subpath + "/" + Header.name + ".po";
+                StreamWriter sw = new StreamWriter(filepath, false);
+                //sw.WriteLine("#" + DateTime.Now.ToString());
+                foreach (KeyValuePair<string, string> pairdata in pairdic)
+                {
+                    string id = pairdata.Key;
+                    string text = FixText(pairdata.Value);;
+                    string template = text;
+                    if (LangDic.ContainsKey("en"))
+                    {
+                        template = FixText(LangDic["en"][id]);
+                    }
+                    else
+                    {
+                        Debug.Assert(LangDic.ContainsKey("en"));
+                    }
+                    sw.WriteLine($"msgctxt \"{id}\"");
+                    sw.WriteLine($"msgid \"{template}\"");
+                    sw.WriteLine($"msgstr \"\"");
+                    sw.WriteLine();
+                }
+                sw.Close();
+
+                filepath = subpath + "/" + Header.name + ".pot";
+                sw = new StreamWriter(filepath, false);
+                //sw.WriteLine("#" + DateTime.Now.ToString());
+                foreach (KeyValuePair<string, string> pairdata in pairdic)
+                {
+                    string id = pairdata.Key;
+                    string text = "";
+                    string template = text;
+                    if (LangDic.ContainsKey("en"))
+                    {
+                        template = FixText(LangDic["en"][id]);
+                    }
+                    else
+                    {
                         Debug.Assert(!LangDic.ContainsKey("en"));
                     }
                     sw.WriteLine($"msgctxt \"{id}\"");
@@ -149,11 +243,18 @@ namespace phoenix_point_JP
         }
         private string TrimStr(string data)
         {
+            if(data == "") { return ""; }
             return data.Substring(1, data.Length - 2);//先頭と末尾の"をとる
         }
         private string FixText(string text)
         {
-            text = text.Replace("\"", "{d-quotation}");
+            text = text.Replace("\"", "\\\"");
+            return text;
+        }
+
+        private string ReFixText(string text)
+        {
+            text = text.Replace("\\\"", "\"");
             return text;
         }
         private void UpdateDic(LangCode langCode, string key, string text)
@@ -168,12 +269,98 @@ namespace phoenix_point_JP
             LangData lang = LangDic[langCode];
             lang.Add(key, text);
         }
+        private LangData readJAPO(string filename)
+        {
+            LangData ja = new LangData();
+
+            var parser = new POParser(new POParserSettings
+            {
+                //
+            });
+
+            TextReader reader = new StreamReader($"./locales/ja/{filename}.po", Encoding.UTF8);
+            var result = parser.Parse(reader);
+            if (result.Success)
+            {
+                var catalog = result.Catalog;
+                foreach(var par in catalog)
+                {
+                    string id = par.Key.ContextId;
+                    string value = par[0];
+                    if(value == "")
+                    {
+                        value = par.Key.Id;
+                    }
+                    ja.Add(id, value);
+                }
+                // process the parsed data...
+            }
+            else
+            {
+                Debug.Assert(false);
+            }
+
+            /*
+            StreamReader sr = new StreamReader($"./locales/ja/{filename}.po", Encoding.UTF8);
+            try
+            {
+                while (sr.EndOfStream == false)
+                {
+                    string line = sr.ReadLine();
+                    string[] fields = line.Split(' ');
+                   if(fields[0] == "msgctxt")//データのはじまり
+                    {
+                        string text = "";
+                        while (sr.EndOfStream == false)
+                        {
+                            string msgidline = sr.ReadLine();
+                            string[] msgidfields = msgidline.Split(' '); 
+                            if (msgidfields[0] == "msgstr") //ただのmsgstrの場合次に移動
+                            {
+                                string msgstrline = msgidline;
+                                while (sr.EndOfStream == false)
+                                {
+                                    for (int i = 1; i < msgstrfields.Length; i++)
+                                    {
+                                        jointtext += msgstrfields[i];
+                                    }
+
+                                    string msgstrline = sr.ReadLine();
+                                    string[] msgstrfields = msgstrline.Split(' ');
+                                    string jointtext = "";
+                                    for (int i = 1; i < msgstrfields.Length; i++)
+                                    {
+                                        jointtext += msgstrfields[i];
+                                    }
+                                    text += TrimStr(jointtext);
+                                }
+                                break;
+                            }
+                            if (msgidline == "") { break; }//ただの改行の場合次のIDに移動
+                        }
+                        string key = "";
+                        for (int i=1;i< fields.Length; i++)
+                        {
+                            key += fields[i];
+                        }
+                        ja.Add(TrimStr(key), text);
+                    }
+                }
+            }
+            finally
+            {
+                sr.Close();
+            }
+            */
+            return ja;
+        }
     }
 
     struct Header
     {
         //string Type;
         public string name;
+        public string[] langcode;
         public string row;
         public string[] raw; //生データ
     }

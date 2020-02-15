@@ -51,6 +51,15 @@
     <StartupObject>phoenix_point_JP.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Hime.Redist, Version=3.4.0.0, Culture=neutral, PublicKeyToken=984dd3a5d55ca89c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hime.Redist.3.4.0\lib\net20\Hime.Redist.dll</HintPath>
+    </Reference>
+    <Reference Include="Karambolo.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=496b38436bb9edeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Karambolo.Common.3.1.2\lib\net45\Karambolo.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Karambolo.PO, Version=1.5.0.0, Culture=neutral, PublicKeyToken=496b38436bb9edeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Karambolo.PO.1.5.1\lib\net45\Karambolo.PO.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -73,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
