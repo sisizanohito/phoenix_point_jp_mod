@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phoenix_point_JP", "phoenix
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "extract_text", "extract_text\extract_text.csproj", "{F1B39DD8-1F67-414A-8098-FBC021B66AA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wapp", "wapp\wapp.csproj", "{6FF5DD45-1AF4-41FB-A137-881DA8CE1635}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F1B39DD8-1F67-414A-8098-FBC021B66AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1B39DD8-1F67-414A-8098-FBC021B66AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1B39DD8-1F67-414A-8098-FBC021B66AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF5DD45-1AF4-41FB-A137-881DA8CE1635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF5DD45-1AF4-41FB-A137-881DA8CE1635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF5DD45-1AF4-41FB-A137-881DA8CE1635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF5DD45-1AF4-41FB-A137-881DA8CE1635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
