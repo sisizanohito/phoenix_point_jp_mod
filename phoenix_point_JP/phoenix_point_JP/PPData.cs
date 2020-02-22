@@ -90,8 +90,14 @@ namespace phoenix_point_JP
             int enpos = Array.IndexOf(header.langcode, "en");
             Debug.Assert(enpos >= 0);
 
+            string subpath = folder + "/";
+            if (!Directory.Exists(subpath))
+            {
+                Directory.CreateDirectory(subpath);
+            }
+
             string filename = SettingInfo.GetIniValue(Program.WORKDIR + "lang.ini", header.name, "FileName");
-            string filepath = folder + "/" + filename + ".tsv";
+            string filepath = subpath + filename + ".tsv";
 
             StreamWriter sw = new StreamWriter(filepath, false);
             //header出力

@@ -1,6 +1,7 @@
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -57,8 +58,34 @@ namespace wapp
                 MessageBox.Show("Phoenix Pointのexeがあるフォルダを指定してください", "エラー" ,MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
+            string subpath = ppfolder + "\\Unity_Assets_Files\\sharedassets0\\";
+            if (!Directory.Exists(subpath))
+            {
+                Directory.CreateDirectory(subpath);
+            }
 
 
+            Process pbat = new Process();
+            pbat.StartInfo.FileName = @".\make.bat";
+            pbat.Start();
+            pbat.WaitForExit();
+            pbat.Close();
+
+            File.Copy(@"./REPACK/sharedassets0_00001.-231", subpath + @"sharedassets0_00001.-231", true);
+            File.Copy(@"./REPACK/sharedassets0_00002.-231", subpath + @"sharedassets0_00002.-231", true);
+            File.Copy(@"./REPACK/sharedassets0_00003.-231", subpath + @"sharedassets0_00003.-231", true);
+            File.Copy(@"./REPACK/sharedassets0_00004.-231", subpath + @"sharedassets0_00004.-231", true);
+            File.Copy(@"./REPACK/sharedassets0_00006.-231", subpath + @"sharedassets0_00006.-231", true);
+
+            Process punityex = new Process();
+            punityex.StartInfo.FileName = @".\UnityEX.exe";
+            punityex.StartInfo.Arguments = $"import \"{ppfolder}sharedassets0.assets\"";
+            punityex.Start();
+            //punityex.WaitForExit();
+            System.Threading.Thread.Sleep(10000);
+            punityex.Close();
+
+            MessageBox.Show("日本語化が完了しました", "終了", MessageBoxButton.OK, MessageBoxImage.Information);
         }
     }
 }
