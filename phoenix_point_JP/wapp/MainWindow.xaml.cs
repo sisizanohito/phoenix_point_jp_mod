@@ -24,6 +24,8 @@ namespace wapp
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static readonly string WORKDIR = "./work/";
+
         public MainWindow()
         {
             InitializeComponent();
@@ -39,7 +41,7 @@ namespace wapp
             dlg.InitialDirectory = @"c:\";  //開いておくフォルダ
             dlg.DefaultDirectory = @"c:\";  //最近使用したフォルダが利用できない場合の代替えフォルダ
 
-            dlg.Title = "PP日本語化mod";
+            dlg.Title = "Phoenix Pointのexeがあるフォルダを指定してください";
 
             //表示
             var Path = dlg.ShowDialog();
@@ -64,6 +66,7 @@ namespace wapp
                 Directory.CreateDirectory(subpath);
             }
 
+            Directory.SetCurrentDirectory(WORKDIR);
 
             Process pbat = new Process();
             pbat.StartInfo.FileName = @".\make.bat";

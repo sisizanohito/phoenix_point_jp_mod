@@ -284,7 +284,7 @@ namespace phoenix_point_JP
                 //
             });
 
-            TextReader reader = new StreamReader($"./locales/ja/{filename}.po", Encoding.UTF8);
+            TextReader reader = new StreamReader($"../locales/ja/{filename}.po", Encoding.UTF8);
             var result = parser.Parse(reader);
             if (result.Success)
             {

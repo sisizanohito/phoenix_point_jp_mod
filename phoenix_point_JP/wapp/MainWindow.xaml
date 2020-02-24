@@ -21,7 +21,7 @@
         <Button Content="フォルダ選択" Margin="16,25,10,0" VerticalAlignment="Top" RenderTransformOrigin="-0.138,-2.205" Height="23" Click="Button_Click" Grid.Column="2"/>
         <TextBox  x:Name="textBox" Height="23" Margin="10,25,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
         <Button Content="日本語化実行" VerticalAlignment="Top" Margin="10,0" Height="23" Click="Button_Click_1" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2"/>
-        <TextBlock Margin="10,0,262,51" TextWrapping="Wrap" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Height="15"><Run Text="フォルダパス"/><LineBreak/><Run/></TextBlock>
+        <TextBlock Margin="10,0,210,51" TextWrapping="Wrap" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Height="15"><Run Text="Phoenix Pointのフォルダパス"/><LineBreak/><Run/></TextBlock>
 
     </Grid>
 </Window>
