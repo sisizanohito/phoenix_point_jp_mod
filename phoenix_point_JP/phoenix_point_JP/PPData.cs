@@ -254,6 +254,7 @@ namespace phoenix_point_JP
         }
         private string FixText(string text)
         {
+            text = text.Replace("\\", "\\\\");
             text = text.Replace("\"", "\\\"");
             return text;
         }
@@ -261,6 +262,7 @@ namespace phoenix_point_JP
         private string ReFixText(string text)
         {
             text = text.Replace("\\\"", "\"");
+            text = text.Replace("\\\\", "\\");
             return text;
         }
         private void UpdateDic(LangCode langCode, string key, string text)
