@@ -9,7 +9,7 @@ https://agk.saloon.jp/game/overseasgame/jp-localize/i2locconverter
 # Licence
 My Projects is released under the MIT License, see LICENSE.txt.<br>
 My Projects local:/phoenix_point_JP/phoenix_point_JP/<br>
-/phoenix_point_JP/extract_text/
+/phoenix_point_JP/extract_text/<br>
 /phoenix_point_JP/wapp/
 
 # Credit
