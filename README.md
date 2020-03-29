@@ -7,7 +7,7 @@ I2LocConverterは お～るげーむず（仮）(@Allgameskari) 様に許可を�
 https://agk.saloon.jp/game/overseasgame/jp-localize/i2locconverter
 
 # Licence
-My Project is released under the MIT License, see LICENSE.txt.
+My Project is released under the MIT License, see LICENSE.txt.<br>
 My Project local:/phoenix_point_JP/phoenix_point_JP/
 
 # Credit
