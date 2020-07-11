@@ -43,7 +43,7 @@ msgid "RECLAIM"
 msgstr "ODZYSKAJ"
 
 msgctxt "PH_Localization/KEY_HEALTH"
-msgid "HEALTH"
+msgid "HIT POINTS"
 msgstr "ZDROWIE"
 
 msgctxt "PH_Localization/KEY_HIT_POINTS"
@@ -357,6 +357,390 @@ msgstr "SPRÓBUJ PONOWNIE"
 msgctxt "PH_Localization/KEY_OK"
 msgid "OK"
 msgstr "OK"
+
+msgctxt "Danforth/KEY_OBJECTIVE_PICK_RESOURCES"
+msgid "RESOURCE PACKS COLLECTED: {0}/{1}"
+msgstr "ZESTAWY zasobów zebrane {0} / {1}"
+
+msgctxt "Danforth/KEY_RESOURCE_FOOD_NAME"
+msgid "FOOD PACK"
+msgstr "PACZKA ŻYWNOŚĆ"
+
+msgctxt "Danforth/KEY_RESOURCE_FOOD_DESCRIPTION"
+msgid "Concentrated nutrient portions"
+msgstr "Stężone części odżywczych"
+
+msgctxt "Danforth/KEY_RESOURCE_MATERIALS_NAME"
+msgid "MATERIAL PACK"
+msgstr "MATERIAŁ PACZKA"
+
+msgctxt "Danforth/KEY_RESOURCE_MATERIALS_DESCRIPTION"
+msgid "Construction materials"
+msgstr "Materiały budowlane"
+
+msgctxt "Danforth/KEY_RESOURCE_MUTAGENS_NAME"
+msgid "MUTAGEN PACK"
+msgstr "MUTAGEN PACZKA"
+
+msgctxt "Danforth/KEY_RESOURCE_MUTAGENS_DESCRIPTION"
+msgid "A capsule of active Pandoran mutagens."
+msgstr "Kapsułka aktywnych mutagenów Pandoran."
+
+msgctxt "Danforth/KEY_RESOURCE_TECH_NAME"
+msgid "TECH PACK"
+msgstr "TECHNOLOGICZNY PAKIET"
+
+msgctxt "Danforth/KEY_RESOURCE_TECH_DESCRIPTION"
+msgid "High tech construction components"
+msgstr "Elementy konstrukcyjne high tech"
+
+msgctxt "Danforth/KEY_OBJECTIVE_RESCUE_ALLY"
+msgid "#RESCUE ALLIES: {0}/{1}"
+msgstr "SOJUSZNICY RATOWNICZE: {0} / {1}"
+
+msgctxt "Danforth/KEY_OBJECTIVE_RECOVER_VEHICLE"
+msgid "#RECOVER VEHICLE"
+msgstr "ODZYSKAĆ POJAZD"
+
+msgctxt "Danforth/KEY_LOAD_INVALID_TACTICAL"
+msgid "This in-battle save is not compatible with the current version of the game. The game will revert the Geoscape just prior to the mission."
+msgstr "Ta bitwa w-Save nie jest kompatybilny z aktualną wersją gry. Gra będzie przywrócić Geoscape tuż przed misją."
+
+msgctxt "Danforth/KEY_BASE_RECRUITS_SPAWNED"
+msgid "New recruits available."
+msgstr "Nowy rekrutuje dostępny."
+
+msgctxt "Danforth/KEY_BASE_RECRUITS_ROSTER_NAME"
+msgid "RECRUITS"
+msgstr "rekruci"
+
+msgctxt "Danforth/KEY_BASE_RECRUITS_ROSTER_DESCRIPTION"
+msgid "All volunteers available for recruiting at your base"
+msgstr "Wszyscy ochotnicy dostępne za rekrutację w swojej bazie"
+
+msgctxt "Danforth/KEY_BASE_RECRUITS_ABILITIES"
+msgid "ABILITIES"
+msgstr "UMIEJĘTNOŚCI"
+
+msgctxt "Danforth/KEY_BASE_RECRUITS_DEPLOYMENT"
+msgid "RECRUIT DEPLOYMENT"
+msgstr "WDROŻENIE REKRUT"
+
+msgctxt "Danforth/KEY_BASE_STATUS_RECRUITING_NORMAL"
+msgid "ONLINE"
+msgstr "ONLINE"
+
+msgctxt "Danforth/KEY_BASE_STATUS_RECRUITING_ATTACK"
+msgid "INCOMING ATTACK"
+msgstr "ATAK PRZYCHODZĄCE"
+
+msgctxt "Danforth/KEY_BASE_RECRUITS_AVAILABLE"
+msgid "RECRUITS AVAILABLE IN {0} DAYS"
+msgstr "Rekrutuje dostępny w {0} dniach"
+
+msgctxt "Danforth/KEY_BASE_RECRUITS_RECRUIT_ACTION"
+msgid "RECRUIT"
+msgstr "REKRUT"
+
+msgctxt "Danforth/KEY_BASE_DISMISS_PERSON"
+msgid "Dismiss soldier, removing them from the Phoenix Project. All equipment will be put in storage."
+msgstr "Odwołać żołnierza, usuwając je z Phoenix Project. Wszystkie urządzenia zostaną wprowadzone w czasie przechowywania."
+
+msgctxt "Danforth/KEY_BASE_DISMISS_PERSON_PROMPT"
+msgid "Are you sure you want to dismiss {0}? If you do their equipment will be placed in storage."
+msgstr "Czy na pewno chcesz odrzucić {0}? Jeśli nie ich sprzęt zostanie umieszczony w magazynie."
+
+msgctxt "Danforth/KEY_BASE_DISMISS_PERSON_RESULT"
+msgid "{0} has been dismissed."
+msgstr "{0} została odrzucona."
+
+msgctxt "Danforth/KEY_BASE_DISMISS_VEHICLE"
+msgid "Remove vehicle from the Phoenix Project"
+msgstr "Usunąć pojazd z Phoenix Projektu"
+
+msgctxt "Danforth/KEY_BASE_DISMISS_VEHICLE_PROMPT"
+msgid "Are you sure you want to remove {0}?"
+msgstr "Czy na pewno chcesz usunąć {0}?"
+
+msgctxt "Danforth/KEY_BASE_DISMISS_VEHICLE_RESULT"
+msgid "{0} has been abandoned"
+msgstr "{0} została porzucona"
+
+msgctxt "Danforth/KEY_BASE_DISMISS_MUTOG"
+msgid "Release Mutog, removing it from the Phoenix Project"
+msgstr "Zwolnić Mutog, usuwając go z Phoenix Projektu"
+
+msgctxt "Danforth/KEY_BASE_DISMISS_MUTOG_PROMPT"
+msgid "Are you sure you want to release {0}?"
+msgstr "Czy na pewno chcesz zwolnić {0}?"
+
+msgctxt "Danforth/KEY_BASE_DISMISS_MUTOG_RESULT"
+msgid "{0} has been released"
+msgstr "{0} został zwolniony"
+
+msgctxt "Danforth/KEY_OBJECTIVE_GET_SOLDIERS"
+msgid "RESCUE SOLDIERS: {0}/{1}"
+msgstr "RATOWNICZYCH ŻOŁNIERZY: {0} / {1}"
+
+msgctxt "Danforth/KEY_OBJECTIVE_GET_VEHICLE"
+msgid "RECOVER VEHICLE"
+msgstr "ODZYSKAĆ POJAZD"
+
+msgctxt "Danforth/KEY_MANUFACTURING_STORAGE_INSUFFICIENT"
+msgid "<color=#ECBA62> (insufficient storage space)</color>"
+msgstr "<color=#ECBA62> (mało miejsca składowania) </color>"
+
+msgctxt "Danforth/KEY_MISSION_DEBRIEF_RESCUE"
+msgid "NEW PERSONNEL"
+msgstr "NOWYCH PRACOWNIKÓW"
+
+msgctxt "Danforth/KEY_MESSAGE_HAVEN_LEADER_DOESNT_TRADE"
+msgid "Diplomatic relations with the Haven are too low. The Heaven leader refuses to trade with you."
+msgstr "Stosunki dyplomatyczne z Haven są zbyt niskie. Lider Niebo odmawia handlować ze sobą."
+
+msgctxt "Danforth/KEY_MESSAGE_SITE_UNREACHABLE"
+msgid "The location is too far away to be reached directly."
+msgstr "Lokalizacja jest zbyt daleko, aby dotrzeć bezpośrednio."
+
+msgctxt "Danforth/KEY_MESSAGE_NOT_ENOUGH_RESOURCES"
+msgid "You do not have enough resources to perform this action."
+msgstr "Nie masz wystarczająco dużo środków, aby wykonać tę czynność."
+
+msgctxt "Danforth/KEY_MISSION_RAID_RESOURCES_SITE_BRIEFING_DESCRIPTION"
+msgid "Search the crates and obtain as many resource packs as possible."
+msgstr "Przeszukaj skrzynie i uzyskać jak najwięcej paczek zasobów, jak to możliwe."
+
+msgctxt "Danforth/KEY_MISSION_RAID_RESOURCES_SITE_BRIEFING_NAME"
+msgid "RESOURCE RAID"
+msgstr "MATERIAŁY RAID"
+
+msgctxt "Danforth/KEY_MISSION_RAID_RESOURCES_SITE_DEFEAT_DESCRIPTION"
+msgid "Your entire team has been wiped out. No resources were claimed."
+msgstr "Cały zespół został wymazane. twierdzono Brak zasobów."
+
+msgctxt "Danforth/KEY_MISSION_RAID_RESOURCES_SITE_DEFEAT_NAME"
+msgid "RESOURCE RAID FAILED"
+msgstr "MATERIAŁY RAID FAILED"
+
+msgctxt "Danforth/KEY_MISSION_RAID_RESOURCES_SITE_VICTORY_DESCRIPTION"
+msgid "Your team was successfully evacuated. All resources obtained from the mission are added to your resource pool."
+msgstr "Twój zespół został pomyślnie ewakuowana. Wszystkie środki uzyskane z misji są dodawane do puli zasobów."
+
+msgctxt "Danforth/KEY_MISSION_RAID_RESOURCES_SITE_VICTORY_NAME"
+msgid "RESOURCE RAID SUCCESSFUL"
+msgstr "MATERIAŁY RAID POMYŚLNA"
+
+msgctxt "Danforth/KEY_MISSION_RAID_RESOURCES_SITE_WARNING"
+msgid "Warning! Resource Raid missions are much more dangerous if within a mist zone."
+msgstr "Ostrzeżenie! Misje Raid zasobów są o wiele bardziej niebezpieczne, jeśli w strefie mgły."
+
+msgctxt "Danforth/KEY_MISSION_RAID_RESOURCES_SITE_WARNING_DESCRIPTION"
+msgid "Be aware you will be facing a continuous stream of local reinforcements. Collect as much equipment and resources as you can from the crates and exit the site from an evacuation zone."
+msgstr "Mieć świadomość będzie w obliczu ciągłego strumienia lokalnych wzmocnień. Zbierz jak najwięcej sprzętu i zasobów, jak można ze skrzyń i opuścić witrynę ze strefy ewakuacji."
+
+msgctxt "Danforth/KEY_STATUS_REPAIR_TIME"
+msgid "{0:f0}h to repair"
+msgstr "{0: f0} h do naprawy"
+
+msgctxt "Danforth/KEY_STATUS_AI_CONTROLLED_NAME"
+msgid "AUTONOMOUS"
+msgstr "AUTONOMICZNY"
+
+msgctxt "Danforth/KEY_STATUS_AI_CONTROLLED_DESCRIPTION"
+msgid "Reverted to autonomous AI control"
+msgstr "Powrócił do autonomicznego sterowania AI"
+
+msgctxt "Danforth/KEY_WARNING_CONTINUOUS_ATTACK"
+msgid "CONTINIOUS ATTACK"
+msgstr "Ciągłe ATTACK"
+
+msgctxt "Danforth/KEY_CONTINUOUS_ATTACK_DESCRIPTION"
+msgid "Enemy reinforcements will arrive continuously from areas marked with this symbol"
+msgstr "Wzmocnienia wroga przybędzie nieprzerwanie od terenów oznaczonych tym symbolem"
+
+msgctxt "Danforth/KEY_SCARAB_TIRE_DESCRIPTION"
+msgid "Scarab caterpillar track"
+msgstr "Scarab gąsienicowe"
+
+msgctxt "Danforth/KEY_SCARAB_TIRE_NAME"
+msgid "TRACK"
+msgstr "TOR"
+
+msgctxt "Danforth/KEY_ASPIDA_ENGINE_DESCRIPTION"
+msgid "Aspida ground effect thruster"
+msgstr "Aspida efekt gruntowy ster strumieniowy"
+
+msgctxt "Danforth/KEY_ASPIDA_ENGINE_NAME"
+msgid "THRUSTER"
+msgstr "ster strumieniowy"
+
+msgctxt "Danforth/KEY_ASPIDA_HULL_DESCRIPTION"
+msgid "Aspida hull"
+msgstr "Aspida kadłub"
+
+msgctxt "Danforth/KEY_ASPIDA_HULL_NAME"
+msgid "HULL"
+msgstr "KADŁUB"
+
+msgctxt "Danforth/KEY_ASPIDA_SHIELDING_DESCRIPTION"
+msgid "Aspida Shielding"
+msgstr "Aspida Ekranowanie"
+
+msgctxt "Danforth/KEY_ASPIDA_SHIELDING_NAME"
+msgid "SHIELDING"
+msgstr "ZASTAWIANIE"
+
+msgctxt "Danforth/KEY_ASPIDA_ARM_DESCRIPTION"
+msgid "Synedrion Aspida Tech Arm"
+msgstr "Synedrion Aspida Tech Arm"
+
+msgctxt "Danforth/KEY_ASPIDA_ARM_NAME"
+msgid "TECH ARM"
+msgstr "TECH ARM"
+
+msgctxt "Danforth/KEY_BASE_ACTIVATE_NAME"
+msgid "ACTIVATE BASE"
+msgstr "AKTYWACJA BASE"
+
+msgctxt "Danforth/KEY_BASE_ACTIVATE_DESCRIPTION"
+msgid "Activate Phoenix Base remotely, rendering it operational."
+msgstr "Aktywuj Phoenix Baza zdalnie, czyniąc to działa."
+
+msgctxt "Danforth/KEY_BASE_ACTIVATE_CONFIRM_NAME"
+msgid "PHOENIX ACTIVATION PROTOCOL"
+msgstr "PHOENIX AKTYWACJA PROTOKÓŁ"
+
+msgctxt "Danforth/KEY_BASE_ACTIVATE_CONFIRM_DESCRIPTION"
+msgid "Initiating the activation protocols will consume resources to make the base operational. Any damaged facilities will need to be repaired."
+msgstr "Inicjowanie protokołów aktywacji będzie zużywać zasoby, aby baza operacyjna. Wszelkie uszkodzone obiekty będą musiały zostać naprawione."
+
+msgctxt "Danforth/KEY_BASE_ACTIVATE_NOTIFICATION_RESOURCES"
+msgid "You do not have the enough resources to activate the base"
+msgstr "Nie mają wystarczających zasobów, aby aktywować bazę"
+
+msgctxt "Danforth/KEY_BASE_ACTIVATE_NOTIFICATION_LIMIT"
+msgid "You have reached the operational limit for Phoenix Bases. No more bases can be activated."
+msgstr "Osiągnięto limit operacyjną dla Bazy Phoenix. Koniec z zasady mogą być aktywowane."
+
+msgctxt "Danforth/KEY_BASE_ACTIVATE_NOTIFICATION_ACTIVATED"
+msgid "Phoenix Base is already operational."
+msgstr "Phoenix Base jest już sprawna."
+
+msgctxt "Danforth/KEY_GEOSCAPE_PANDORAN_NEST_DISCOVERED"
+msgid "A Pandoran Nest has been discovered and revealed on the Geoscape."
+msgstr "Pandoran Gniazdo zostało odkryte i ujawnił na Geoscape."
+
+msgctxt "Danforth/KEY_GEOSCAPE_PANDORAN_LAIR_DISCOVERED"
+msgid "A Pandoran Lair has been discovered and revealed on the Geoscape."
+msgstr "Pandoran Lair zostało odkryte i ujawnił na Geoscape."
+
+msgctxt "Danforth/KEY_GEOSCAPE_PANDORAN_CITADEL_DISCOVERED"
+msgid "A Pandoran Citadel has been discovered and revealed on the Geoscape."
+msgstr "Pandoran Cytadela została odkryta i ujawnił na Geoscape."
+
+msgctxt "Danforth/KEY_MESSAGE_NO_SPACE_TO_RECRUIT"
+msgid "THERE IS NOT ENOUGH SPACE IN YOUR AIRCRAFT FOR THE NEW RECRUIT"
+msgstr "Nie ma wystarczająco dużo miejsca w statkach powietrznych do nowego rekruta"
+
+msgctxt "Danforth/KEY_BASE_RECRUIT_CONFIRMATION"
+msgid "Are you sure you want to recruit {0} for {1}?"
+msgstr "Czy na pewno chcesz zatrudnić {0} do {1}?"
+
+msgctxt "Danforth/KEY_BASE_RECRUIT_DEPLOYMENT"
+msgid "{0} has been recruited and deployed to base {1}"
+msgstr "{0} zwerbowano i stosowane do bazy {1}"
+
+msgctxt "Danforth/KEY_MISSION_RESCUE_SOLDIERS_BRIEFING_DESC"
+msgid "Take control of the independent soldiers and evacuate the site with them"
+msgstr "Przejmij kontrolę nad niezależnymi żołnierzy i ewakuować się z nimi witrynę"
+
+msgctxt "Danforth/KEY_MISSION_RESCUE_SOLDIERS_BRIEFING_NAME"
+msgid "RESCUE SOLDIERS"
+msgstr "RATOWNICZE ŻOŁNIERZE"
+
+msgctxt "Danforth/KEY_MISSION_RESCUE_SOLDIERS_DEFEAT_DESC"
+msgid "Your squad was wiped out"
+msgstr "Twoja drużyna została zniszczona"
+
+msgctxt "Danforth/KEY_MISSION_RESCUE_SOLDIERS_DEFEAT_NAME"
+msgid "RESCUE FAILED"
+msgstr "RATOWNICZA NIE POWIODŁA SIĘ"
+
+msgctxt "Danforth/KEY_MISSION_RESCUE_SOLDIERS_VICTORY_DESC"
+msgid "All surviving soldiers and vehicles have been evacuated"
+msgstr "Wszystkie przeżyły żołnierzy i pojazdy zostały ewakuowane"
+
+msgctxt "Danforth/KEY_MISSION_RESCUE_SOLDIERS_VICTORY_NAME"
+msgid "RESCUE MISSION OVER"
+msgstr "MISJA RATOWNICZA NAD"
+
+msgctxt "Danforth/KEY_MISSION_RECOVER_VEHICLE_BRIEFING_DESC"
+msgid "Take control of the vehicle located somewhere in the site and evacuate with it"
+msgstr "Przejmij kontrolę pojazdu znajduje się gdzieś w tym miejscu i ewakuować z nim"
+
+msgctxt "Danforth/KEY_MISSION_RECOVER_VEHICLE_BRIEFING_NAME"
+msgid "RECOVER VEHICLE"
+msgstr "ODZYSKANIA POJAZDU"
+
+msgctxt "Danforth/KEY_MISSION_RECOVER_VEHICLE_DEFEAT_DESC"
+msgid "Your squad was wiped out"
+msgstr "Twoja drużyna została zniszczona"
+
+msgctxt "Danforth/KEY_MISSION_RECOVER_VEHICLE_DEFEAT_NAME"
+msgid "RECOVERY FAILED"
+msgstr "ODZYSKU ZAWIODŁY"
+
+msgctxt "Danforth/KEY_MISSION_RECOVER_VEHICLE_VICTORY_DESC"
+msgid "All surviving soldiers and vehicles have been evacuated"
+msgstr "Wszystkie przeżyły żołnierzy i pojazdy zostały ewakuowane"
+
+msgctxt "Danforth/KEY_MISSION_RECOVER_VEHICLE_VICTORY_NAME"
+msgid "RECOVERY MISSION OVER"
+msgstr "ODZYSK MISJA PONAD"
+
+msgctxt "Danforth/KEY_LAUNCH_LASER_DESCRIPTION"
+msgid "Fire laser at target location."
+msgstr "laser pożar w lokalizacji docelowej."
+
+msgctxt "Danforth/KEY_LAUNCH_LASER_NAME"
+msgid "LASER SHOT"
+msgstr "LASER STRZAŁ"
+
+msgctxt "Danforth/KEY_MESSAGE_NO_SPACE_INVENTORY"
+msgid "No space in inventory"
+msgstr "Brak miejsca w ekwipunku"
+
+msgctxt "Darleth/KEY_TRADE_HAVEN"
+msgid "TRADE RESOURCES WITH {0}"
+msgstr "HANDLUJ ZASOBAMI Z: {0}"
+
+msgctxt "Darleth/KEY_TRADE_SELECT"
+msgid "SELECT HAVEN RESOURCE"
+msgstr "WYBIERZ ZASÓB BASTIONU"
+
+msgctxt "Darleth/KEY_TRADE_COSTS"
+msgid "COSTS"
+msgstr "KOSZT"
+
+msgctxt "Darleth/KEY_TRADE_EXCHANGE"
+msgid "EXCHANGE"
+msgstr "WYMIANA"
+
+msgctxt "Darleth/KEY_TRADE_FOR"
+msgid "FOR"
+msgstr "ZA"
+
+msgctxt "Darleth/KEY_TRADE_PHOENIX"
+msgid "PHOENIX PROJECT RESOURCES"
+msgstr "ZASOBY PROJEKTU PHOENIX"
+
+msgctxt "Darleth/KEY_TRADE_NOTIFICATION"
+msgid "TRADE {0} FOR {1}"
+msgstr "WYMIANA: {0} ZA {1}"
+
+msgctxt "Darleth/KEY_TRADE_INSUFFICIENT"
+msgid "NOT ENOUGH RESOURCES TO TRADE"
+msgstr "ZBYT MAŁO ZASOBÓW, BY DOKONAĆ HANDLU"
 
 msgctxt "Blood Titanium/KEY_ITEM_TYPE_BIONIC"
 msgid "BIONIC"
@@ -1028,7 +1412,23 @@ msgstr "Niewystarczająca ilość miejsca. Zbuduj więcej obiektów typu Magazyn
 
 msgctxt "Blood Titanium/KEY_LOAD_DLC_REQUIRED"
 msgid "The following Downloadable Content is required to load this saved game: {0}[LF][LF]Do you want to go to the store and buy them?"
-msgstr "[null]"
+msgstr "Do wczytania tego zapisu gry niezbędna jest następująca zawartość do pobrania: {0}[LF][LF]Czy chcesz przejść do sklepu, aby ją kupić?"
+
+msgctxt "Blood Titanium/KEY_TIMED_MISSION_COUNTER"
+msgid "{Objective} (ends in {time})"
+msgstr "{Objective} (koniec za {time})"
+
+msgctxt "Blood Titanium/KEY_TIMED_MISSION_ENDED"
+msgid "The times mission {0} has expired. No further actions regarding it are possible."
+msgstr "Czas na wykonanie misji {0} upłynął. Nie można już podjąć w niej żadnych działań."
+
+msgctxt "Blood Titanium/KEY_TUTORIAL_TIMED_MISSIONS_NAME"
+msgid "Time Limited Events"
+msgstr "Wydarzenia z ograniczeniem czasowym"
+
+msgctxt "Blood Titanium/KEY_TUTORIAL_TIMED_MISSIONS_DESCRIPTION"
+msgid "Timed limited events are time sensitive objectives that disappear after a set amount of time. If not completed within the time limit, the mission disappears and will not reappear for the remaining game."
+msgstr "Wydarzenia z ograniczeniem czasowym to cele z wyznaczonym czasem realizacji, które znikają po upływie tego czasu. Jeśli misja nie zostanie wykonana w wyznaczonym czasie, zniknie i nie pojawi się ponownie do końca gry."
 
 msgctxt "Abilities/KEY_ACID_RESISTANCE_DESCRIPTION"
 msgid "Reduces effect of Acid Damage by half"
@@ -1071,7 +1471,7 @@ msgid "BERSERKER TRAINING"
 msgstr "SZKOLENIE: BERSERKER"
 
 msgctxt "Abilities/KEY_BLOODLUST_DESCRIPTION"
-msgid "Damage and Speed are increased proportional to the health lost (up to +50%)"
+msgid "Damage and Speed are increased proportional to the hit points lost (up to +50%)"
 msgstr "Zadawane obrażenia i prędkość wzrastają proporcjonalnie do utraconego zdrowia (maksymalnie o 50%)"
 
 msgctxt "Abilities/KEY_BLOODLUST_NAME"
@@ -1167,7 +1567,7 @@ msgid "EAGLE EYED"
 msgstr "SOKOLE OCZY"
 
 msgctxt "Abilities/KEY_ELECTRIC_STRIKE_DESCRIPTION"
-msgid "Dazes target if shock value is greater than target's Hit Points"
+msgid "Target is dazed if shock value is greater than target's current Hit Points"
 msgstr "Oszałamia cel, jeśli wartość wstrząsu jest większa niż punkty życia celu."
 
 msgctxt "Abilities/KEY_ELECTRIC_STRIKE_NAME"
@@ -1419,7 +1819,7 @@ msgid "IGNORE PAIN"
 msgstr "IGNOROWANIE BÓLU"
 
 msgctxt "Abilities/KEY_INFECTED_BLOOD_DESCRIPTION"
-msgid "Add 1 Virus Damage for each Health Point damage inflicted in melee"
+msgid "Add 1 Virus Damage for each Hit Point damage inflicted in melee"
 msgstr "Zwiększa obrażenia od wirusa o 1 punkt za każdy punkt obrażeń zadanych w walce wręcz."
 
 msgctxt "Abilities/KEY_INFECTED_BLOOD_NAME"
@@ -2315,11 +2715,11 @@ msgid "FAST USE"
 msgstr "SZYBKIE UŻYCIE"
 
 msgctxt "Abilities/KEY_TECHNICIAN_MANUAL_CONTROL_DESCRIPTION"
-msgid "Take manual control of a turret or vehicle weapon and shoot at a target"
+msgid "Use 1 AP and 3 WPs to take control of a turret or vehicle weapon and shoot at a target. "
 msgstr "Pozwala ręcznie sterować wieżyczką lub bronią pojazdu i ostrzeliwać nią cel."
 
 msgctxt "Abilities/KEY_TECHNICIAN_MANUAL_CONTROL_NAME"
-msgid "MANUAL CONTROL"
+msgid "REMOTE CONTROL"
 msgstr "RĘCZNE STEROWANIE"
 
 msgctxt "Abilities/KEY_TECHNICIAN_FIELD_MEDIC_DESCRIPTION"
@@ -2855,7 +3255,7 @@ msgid "ACID"
 msgstr "KWAS"
 
 msgctxt "Damage types/KEY_DAMAGE_TYPE_ACID_DESC"
-msgid "ACID damage sticks to body parts - each turn it does 10 damage - first to armor, then body. Acid level reduces by 10 each turn."
+msgid "ACID damage sticks to individual body parts - each turn it applies damage to armor first, then body. Acid levels reduce by 10 each turn."
 msgstr "KWAS przykleja się do części ciała, zadając co turę po 10 punktów obrażeń, najpierw na pancerzu, a później na ciele. Poziom kwasu spada co turę o 10."
 
 msgctxt "Damage types/KEY_DAMAGE_TYPE_IMPACT"
@@ -3215,7 +3615,7 @@ msgid "The Geoscape"
 msgstr "Glob"
 
 msgctxt "Tutorial/KEY_TUTORIAL_GEOSCAPE_DESCRIPTION"
-msgid "The GEOSCAPE shows the world and all locations and sites of interest.[LF][LF]In the beginning, all you know about is your base, Phoenix Point.[LF][LF]GEOSCAPE CONTROLS[LF]Move globe: Hold down :LMB: and drag, or use gamepad :RTS:[CR][LF]Gamepad cursor: :LTS:[LF]Zoom in/out: :MW: or use gamepad :LT: and :RT:[LF][LF]SELECT THE \"\"BASES\"\" BUTTON with :LMB: or the gamepad cursor with :A:"
+msgid "The GEOSCAPE shows the world and all locations and sites of interest.[LF][LF]In the beginning, all you know about is your base, Phoenix Point.[LF][LF]GEOSCAPE CONTROLS[LF]Move globe: Hold down :LMB: and drag, or use gamepad :RTS:[LF]Move gamepad cursor: :LTS:[LF]Zoom in/out: :MW: or use gamepad :LT: and :RT:[LF][LF]SELECT THE \"\"BASES\"\" BUTTON with :LMB: or the gamepad cursor with :A:"
 msgstr "GLOB przedstawia świat oraz wszystkie miejsca i obszary zainteresowania.[LF][LF]Na początku wiesz tylko o swojej bazie – Phoenix Point.[LF][LF]STEROWANIE GLOBEM[LF]Przesuwanie globu: przytrzymaj :LMB: i przeciągnij lub użyj :RTS: na gamepadzie.[LF]Kursor gamepada: :LTS:.[LF]Przybliżanie/oddalanie: :MW: lub :LT: i :RT: na gamepadzie.[LF][LF]WYBIERZ PRZYCISK „BAZY” za pomocą :LMB: lub kursora gamepada i przycisku :A:."
 
 msgctxt "Tutorial/KEY_TUTORIAL_BASE_NAME"
@@ -3247,7 +3647,7 @@ msgid "Mission Rewards and Fatigue"
 msgstr "Nagrody za zrealizowane misje i zmęczenie"
 
 msgctxt "Tutorial/KEY_TUTORIAL_RESOURCES_DESCRIPTION"
-msgid "On completing a mission, all gathered items and resources are added to your overall supplies. [LF][LF]Soldiers get fatigued during battle, losing 1 stamina point per turn (max 10 per battle). When stamina falls below 20%, a soldier will suffer an Action Point penalty in the next battle.[LF][LF]Your soldiers will recover stamina and health while resting at base, as long as the base has a functioning Living Quarters and Medical Bay.[LF][LF]RETURN TO YOUR BASE SO YOUR SOLDIERS CAN RECOVER"
+msgid "On completing a mission, all gathered items and resources are added to your overall supplies. [LF][LF]Soldiers get fatigued during battle, losing 1 stamina point per turn (max 10 per battle). When stamina falls below 20%, a soldier will suffer an Action Point penalty in the next battle.[LF][LF]Your soldiers will recover stamina and hit points while resting at base, as long as the base has a functioning Living Quarters and Medical Bay.[LF][LF]RETURN TO YOUR BASE SO YOUR SOLDIERS CAN RECOVER"
 msgstr "Po zakończeniu misji wszystkie zebrane przedmioty i zasoby są dodawane do łącznych zasobów.[LF][LF]Żołnierze męczą się w trakcie bitwy i tracą 1 punkt kondycji na każdą turę (maks. 10 w trakcie całej bitwy). Gdy poziom kondycji spadnie poniżej 20%, żołnierz otrzyma karne punkty akcji w następnej bitwie.[LF][LF]Żołnierze odzyskują punkty kondycji i zdrowia w trakcie odpoczynku w bazie, o ile funkcjonują w niej kwatery i ambulatorium.[LF][LF]WRÓĆ DO BAZY, ABY ŻOŁNIERZE MOGLI ODZYSKAĆ SIŁY"
 
 msgctxt "Tutorial/KEY_TUTORIAL_PERSONNEL_NAME"
@@ -3699,7 +4099,7 @@ msgid "Acid Damage"
 msgstr "Obrażenia od kwasu"
 
 msgctxt "Phoenixpedia/KEY_PHOENIXPEDIA_GUIDE_ACID_DESC"
-msgid "A weapon with Acid Damage will add the damage value to the acid level of the hit body part. Acid can accumulate on body parts, if they are hit multiple times with acid damage.[LF][LF]At the start of a character's turn, acid will eat away at the body part. First, the body part's armor is affected, and reduced by 10. If there is no armor left on the body part then 10 damage is applied to Body Part Hit Points and to General Hit Points. After all acid damage is resolved, the acid value on each body part will reduce by 10."
+msgid "A weapon with Acid Damage will add the damage value to the acid level of the hit body part. Acid can accumulate on body parts, if they are hit multiple times with acid damage.[LF][LF]At the start of a character's turn, acid will eat away at the body part. First, the body part's armor is affected, and reduced by the Acid value. If there is no armor left on the body part then the damage is applied to Body Part Hit Points and to General Hit Points. After all acid damage is resolved, the acid value on each body part will reduce by 10."
 msgstr "Broń umożliwiająca zadawanie obrażeń od kwasu spowoduje dodanie wartości obrażeń do poziomu kwasu w trafionej części ciała. Kwas może kumulować się w częściach ciała, jeżeli zostaną kilkukrotnie narażone na obrażenia od kwasu.[LF][LF]Na początku tury danej postaci, kwas trawi daną część ciała. Najpierw dotyka to pancerza, od którego wartości odejmuje się 10 punktów. Jeżeli na danej części ciała nie ma już pancerza, wówczas 10 punktów obrażeń odejmuje się od punktów życia części ciała i ogólnej liczby punktów życia. Po zadaniu wszystkich obrażeń od kwasu wartość kwasu w każdej części ciała spada o 10 punktów."
 
 msgctxt "Phoenixpedia/KEY_PHOENIXPEDIA_GUIDE_PARALYSE_NAME"
@@ -3755,8 +4155,8 @@ msgid "Status Effects"
 msgstr "Efekty stanu"
 
 msgctxt "Phoenixpedia/KEY_PHOENIXPEDIA_GUIDE_STATUS_EFFECTS_DESCRIPTION"
-msgid "Status effects can apply to the entire character or only to a specific body part.[LF][LF]While the status effects of a unit is can be seen on the health indicator above the character's head, body part statuses are only visible from the Character Info screen. The only exceptions are when a body part is wounded or disabled, which are indicated on the damage display to the left of the health indicator.[LF][LF]STATUS EFFECTS SUMMARY[LF]ACID: Acid corrodes 10 armor per turn. If there is no armor, then the damage is applied to the body part. Acid value reduces by 10 per turn.[LF]BLEEDING: Each turn, lose Hit Points equal to bleed value.[LF]BURNING: Fire damage is applied to each body part at the start of the turn, subtracting armor.[LF]FRENZIED: Speed increased by 50% and immune to panic.[LF]GOOED: Unable to move until Goo decays or is removed.[LF]INFECTED BY VIRUS: At start of turn virus is subtracted from Will Points, then virus value is reduced by 1.[LF]PANICKED: Unable to move for a turn, while recovering Will Points.[LF]POISONED: At start of turn, poison is subtracted from Hit Points, then poison value is reduced by 10.[LF]PREPARING: (Pandoran Sentinel and Egg only) Preparing to activate special ability on the next turn.[LF]BERSERK: (Mutog only) Mutog becomes wild, attacking friend or foe.[LF]ENRAGED: (Mutog only) Damage dealt and speed are increased by 50%. There's a 10% chance the Mutog will go Berserk at the start of each turn.[LF]ALERTED: (Enemy only). Enemy is aware of your presence.[LF]TIRED: (caused by entering a battle with low Stamina) -1 Action Point each turn.[LF]EXHAUSTED: (caused by entering a battle with low Stamina) -2 Action Point each turn.[LF]PARALYZED: Cannot move or perform any actions.[LF]PARALYSIS: Action Points are reduced by the proportion of paralysis value to Strength.[LF]DAZED: Action Points reduced to 1 and accuracy halved.[LF]OVERWATCH: Enemies entering the overwatch cone will trigger an attack."
-msgstr "Efekty stanu mogą mieć zastosowanie do całej postaci lub tylko do określonej części ciała.[LF][LF]Podczas gdy efekty stanu doświadczane przez jednostkę można zobaczyć na wskaźniku zdrowia nad głową postaci, stany poszczególnych części ciała są widoczne tylko na ekranie informacji o postaci. Jedynymi wyjątkami od tej zasady są przypadki zranienia lub kontuzji części ciała, które są zaznaczone na podglądzie obrażeń po lewej stronie wskaźnika zdrowia.[LF][LF]ZESTAWIENIE EFEKTÓW STANU[LF]KWAS: kwas powoduje korodowanie pancerza o 10 punktów w każdej turze. W przypadku braku pancerza obrażenia są zadawane danej części ciała. Wartość obrażeń od kwasu zmniejsza się o 10 punktów z każdą turą.[LF]KRWAWIENIE: z każdą turą postać traci liczbę punktów życia równą wartości krwawienia.[LF]PŁONIE: obrażenia od ognia są zadawane każdej części ciała na początku tury. Odejmuje się od nich wartość pancerza.[LF]ATAK SZAŁU: szybkość zwiększa się o 50%, a postać staje się odporna na panikę.[LF]W MAZI: postać nie może się ruszyć, zanim maź się nie rozłoży lub nie zostanie usunięta.[LF]INFEKCJA WIRUSOWA: na początku tury wartość zarażenia jest odejmowana od punktów woli, a następnie zmniejsza się o 1 punkt.[LF]ATAK PANIKI: postać nie może się ruszyć przez jedną turę, podczas której odzyskuje punkty woli.[LF]ZATRUCIE: na początku tury wartość zatrucia jest odejmowana od punktów życia, a następnie zmniejsza się o 10 punktów.[LF]PRZYGOTOWYWANIE (dotyczy tylko pandorańskiego strażnika i jaja): przygotowanie do aktywacji specjalnej umiejętności w następnej turze.[LF]ZDZICZAŁY (dotyczy tylko mutoga): mutog dziczeje i atakuje zarówno nieprzyjaciół, jak i sprzymierzeńców.[LF]WŚCIEKŁY (dotyczy tylko mutoga): zadawane obrażenia i szybkość zwiększają się o 50%. Szanse na zdziczenie mutoga na początku każdej tury wynoszą 10%.[LF]ZAALARMOWANY (dotyczy tylko przeciwników): przeciwnik zdaje sobie sprawę z Twojej obecności.[LF]ZMĘCZENIE (spowodowane włączeniem się do bitwy mimo niskiego poziomu kondycji): -1 punkt akcji w każdej turze.[LF]WYCIEŃCZENIE (spowodowane włączeniem się do bitwy mimo niskiego poziomu kondycji): -2 punkty akcji w każdej turze.[LF]SPARALIŻOWANO: postać nie może się ruszyć ani wykonywać żadnych działań.[LF]PARALIŻ: liczba punktów akcji zostaje zmniejszona o wartość odpowiadającą stosunkowi wartości paraliżu do siły.[LF]OSZOŁOMIONO: liczba punktów akcji zostaje zmniejszona o 1, a celność o połowę.[LF]OBSERWACJA: przeciwnicy wkraczający do obserwowanej strefy zostaną zaatakowani."
+msgid "Status effects can apply to the entire character or only to a specific body part.[LF][LF]While the status effects of a unit is can be seen on the health indicator above the character's head, body part statuses are only visible from the Character Info screen. The only exceptions are when a body part is wounded or disabled, which are indicated on the damage display to the left of the health indicator.[LF][LF]STATUS EFFECTS SUMMARY[LF]ACID: Acid corrodes the armor by the Acid value (per turn). If there is no armor, then the damage is applied to the body part. Acid value reduces by 10 per turn.[LF]BLEEDING: Each turn, lose Hit Points equal to bleed value.[LF]BURNING: Fire damage is applied to each body part at the start of the turn, subtracting armor.[LF]FRENZIED: Speed increased by 50% and immune to panic.[LF]GOOED: Unable to move until Goo decays or is removed.[LF]INFECTED BY VIRUS: At start of turn virus is subtracted from Will Points, then virus value is reduced by 1.[LF]PANICKED: Unable to move for a turn, while recovering Will Points.[LF]POISONED: At start of turn, poison is subtracted from Hit Points, then poison value is reduced by 10.[LF]PREPARING: (Pandoran Sentinel and Egg only) Preparing to activate special ability on the next turn.[LF]BERSERK: (Mutog only) Mutog becomes wild, attacking friend or foe.[LF]ENRAGED: (Mutog only) Damage dealt and speed are increased by 50%. There's a 10% chance the Mutog will go Berserk at the start of each turn.[LF]ALERTED: (Enemy only). Enemy is aware of your presence.[LF]TIRED: (caused by entering a battle with low Stamina) -1 Action Point each turn.[LF]EXHAUSTED: (caused by entering a battle with low Stamina) -2 Action Point each turn.[LF]PARALYZED: Cannot move or perform any actions.[LF]PARALYSIS: Action Points are reduced by the proportion of paralysis value to Strength.[LF]DAZED: Action Points reduced to 1 and accuracy halved. Abilities requiring Will Points cannot be used.[LF]OVERWATCH: Enemies entering the overwatch cone will trigger an attack.[LF]SONIC: Dazes the target is the target's Will Points are less than the amount of Sonic Damage"
+msgstr "Efekty stanu mogą mieć zastosowanie do całej postaci lub tylko do określonej części ciała.[LF][LF]Podczas gdy efekty stanu doświadczane przez jednostkę można zobaczyć na wskaźniku zdrowia nad głową postaci, stany poszczególnych części ciała są widoczne tylko na ekranie informacji o postaci. Jedynymi wyjątkami od tej zasady są przypadki zranienia lub kontuzji części ciała, które są zaznaczone na podglądzie obrażeń po lewej stronie wskaźnika zdrowia.[LF][LF]ZESTAWIENIE EFEKTÓW STANU[LF]KWAS: kwas powoduje korodowanie pancerza o 10 punktów w każdej turze. W przypadku braku pancerza obrażenia są zadawane danej części ciała. Wartość obrażeń od kwasu zmniejsza się o 10 punktów z każdą turą.[LF]KRWAWIENIE: z każdą turą postać traci liczbę punktów życia równą wartości krwawienia.[LF]PŁONIE: obrażenia od ognia są zadawane każdej części ciała na początku tury. Odejmuje się od nich wartość pancerza.[LF]ATAK SZAŁU: szybkość zwiększa się o 50%, a postać staje się odporna na panikę.[LF]W MAZI: postać nie może się ruszyć, zanim maź się nie rozłoży lub nie zostanie usunięta.[LF]INFEKCJA WIRUSOWA: na początku tury wartość zarażenia jest odejmowana od punktów woli, a następnie zmniejsza się o 1 punkt.[LF]ATAK PANIKI: postać nie może się ruszyć przez jedną turę, podczas której odzyskuje punkty woli.[LF]ZATRUCIE: na początku tury wartość zatrucia jest odejmowana od punktów życia, a następnie zmniejsza się o 10 punktów.[LF]PRZYGOTOWYWANIE (dotyczy tylko pandorańskiego strażnika i jaja): przygotowanie do aktywacji specjalnej umiejętności w następnej turze.[LF]ZDZICZAŁY (dotyczy tylko mutoga): mutog dziczeje i atakuje zarówno nieprzyjaciół, jak i sprzymierzeńców.[LF]WŚCIEKŁY (dotyczy tylko mutoga): zadawane obrażenia i szybkość zwiększają się o 50%. Szanse na zdziczenie mutoga na początku każdej tury wynoszą 10%.[LF]ZAALARMOWANY (dotyczy tylko przeciwników): przeciwnik zdaje sobie sprawę z Twojej obecności.[LF]ZMĘCZENIE (spowodowane włączeniem się do bitwy mimo niskiego poziomu kondycji): -1 punkt akcji w każdej turze.[LF]WYCIEŃCZENIE (spowodowane włączeniem się do bitwy mimo niskiego poziomu kondycji): -2 punkty akcji w każdej turze.[LF]SPARALIŻOWANO: postać nie może się ruszyć ani wykonywać żadnych działań.[LF]PARALIŻ: liczba punktów akcji zostaje zmniejszona o wartość odpowiadającą stosunkowi wartości paraliżu do siły.[LF]OSZOŁOMIONO: liczba punktów akcji zostaje zmniejszona o 1, a celność o połowę.[LF]OBSERWACJA: przeciwnicy wkraczający do obserwowanej strefy zostaną zaatakowani.[LF]SONICZNE: oszałamia cel, ponieważ Punkty Woli celu są mniejsze niż obrażenia dźwiękowe."
 
 msgctxt "Phoenixpedia/KEY_PHOENIXPEDIA_GUIDE_HAVENS_NAME"
 msgid "Advanced: Havens"
@@ -4289,6 +4689,30 @@ msgstr "Nastąpił powrót do ekranu tytułowego, ponieważ gracz wylogował si�
 msgctxt "Xbox/KEY_PLATFORM_YOU_WILL_BE_SIGNED_OUT"
 msgid "You will be signed out from your user profile and will be returned to the sign in screen. Do you want to continue?"
 msgstr "Nastąpi wylogowanie z profilu użytkownika i powrót do ekranu logowania. Czy chcesz kontynuować?"
+
+msgctxt "Xbox/KEY_STREAMING_INSTALL_LAUNCH"
+msgid "LAUNCH"
+msgstr "[null]"
+
+msgctxt "Xbox/KEY_STREAMING_INSTALL_CANCEL2"
+msgid "SAVE & EXIT"
+msgstr "[null]"
+
+msgctxt "Xbox/KEY_STREAMING_INSTALL_TEXT_TITLE"
+msgid "DOWNLOADING MISSION"
+msgstr "[null]"
+
+msgctxt "Xbox/KEY_STREAMING_INSTALL_TEXT_DESCRIPTION"
+msgid "The selected mission is currently being downloaded to your device. Please, wait until the download is complete before launching."
+msgstr "[null]"
+
+msgctxt "Xbox/KEY_CONSOLE_CONTINUE"
+msgid "PRESS :A: TO CONTINUE"
+msgstr "[null]"
+
+msgctxt "Xbox/KEY_CONSOLE_SWITCH_PROFILE"
+msgid "SWITCH PROFILE"
+msgstr "[null]"
 
 msgctxt "Objectives/KEY_OBJECTIVE_PROTECT_CIVILIANS"
 msgid "PROTECT ALL CIVILIANS [{0}/{1}]"
@@ -8003,7 +8427,7 @@ msgid "HANDS TO USE"
 msgstr "RĘCE DO UŻYCIA"
 
 msgctxt "Equipping Screen/KEY_ITEM_STAT_HEALTH"
-msgid "HEALTH"
+msgid "HIT POINTS"
 msgstr "ZDROWIE"
 
 msgctxt "Equipping Screen/KEY_ITEM_STAT_LOCATION_HP"
@@ -8954,10 +9378,6 @@ msgctxt "Opening Screen/KEY_BSNAPSHOT_GAMES_INC_BACKER_BUILD_END1"
 msgid "SNAPSHOT GAMES, INC.[LF]END USER LICENSE AGREEMENT[LF][LF]This End User License Agreement (“Agreement”) is a contract between you and Snapshot Games, Inc. (“Snapshot” or “we” or “us”) for you to use the Phoenix Point computer game (collectively, the “Software”).[LF][LF]PLEASE READ THIS AGREEMENT CAREFULLY. IT CONTAINS IMPORTANT TERMS THAT AFFECT YOU, YOUR USE OF THE SOFTWARE, AND ANY FEEDBACK (DEFINED BELOW) YOU PROVIDE TO US. BY CLICKING “I ACCEPT”, “I AGREE”, OR A SIMILAR ACKNOWLEDGEMENT OF AGREEMENT OR BY DOWNLOADING, INSTALLING, COPYING OR USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT DOWNLOAD, INSTALL, COPY OR USE THE SOFTWARE OR SUBMIT ANY FEEDBACK TO US.  THIS AGREEMENT CONSTITUTES A VALID AND BINDING LEGAL CONTRACT BETWEEN YOU AND US.[LF][LF]For information on how we collect and use your information, see our Privacy Policy located here: https://phoenixpoint.info/privacy-policy.[LF][LF]1.        Acceptance of this Agreement.[LF](a)        By an Individual 18 Years of Age or Older.  Any individual who is at least 18 years of age or the legal age of majority under applicable law may accept the terms and conditions of this Agreement by selecting the “I Accept,” “I Agree,” or similar acknowledgment of agreement or by downloading, installing, copying, or using the Software.  By accepting the terms and conditions of this Agreement, you acknowledge that you have read, understood, and accepted the terms and conditions of this Agreement and agree to be bound thereby.[LF](b)        By an Individual Between the Ages of 13 and 17 Years.  Any individual who is a minor (as determined by the state or province of your residence) and 13 years of age or older (an “Eligible Minor”) must have his or her parent or legal guardian indicate consent to the terms and conditions of this Agreement.  An Eligible Minor’s parent or legal guardian may accept the terms and conditions of this Agreement by selecting the “I Accept”, “I Agree”, or similar acknowledgment of agreement or by downloading, installing, copying, or using the Software on behalf of such Eligible Minor.  By accepting the terms and conditions of this Agreement, the parent or legal guardian of the Eligible Minor acknowledges that he or she has read, understood, and accepted the terms and conditions of this Agreement on behalf of such Eligible Minor and on behalf of themselves and agrees to be bound thereby.  Without limiting the foregoing, Parents and legal guardians understand that they are responsible for the acts and activities of their Eligible Minors in connection with any installation, copying, or use of the Software.[LF](c)        By an Individual Under the Age of 13 Years.  The Software is not targeted towards, nor intended for use by, anyone under the age of 13.  Children under the age of 13 are not eligible to install, copy, or use the Software, notwithstanding that they may have the consent of a parent or legal guardian.[LF](d)        Import and Export Control Laws.  You may not accept the terms and conditions of this Agreement or download, install, copy or use the Software if (a) you are a resident of any U.S. embargoed countries or (b) you are listed on the U.S. Treasury Department’s list of Specially Designated Nationals or the U.S. Department of Commerce Denied Person’s List or Entity List.  By downloading, installing or using any component of the Software, you represent and warrant that you are not located in, under control of, or a national or resident of any such country or jurisdiction or on any such list.[LF][LF]2.        Software License. Subject to the terms of this Agreement, your compliance with the terms of service, terms of use, subscriber agreement or other terms of the Web site from which you obtain the Software (“Terms of Service”) which govern your use of such Web sites' services to, among other activities, obtain the Software, and your compliance with any other agreement you may have entered with us governing your use of Software-related services (the “Service”), we grant you a nonexclusive, nontransferable, nonsublicenseable license to download, install and use one copy of the Software in binary executable form only on a single personal computing device solely for your own, personal use of the Software and Service. The terms of this Agreement supplement any applicable Terms of Service and supersede those Terms of Service where this Agreement and the Terms of Service conflict.  Any Snapshot software that updates, upgrades, supplements, replaces, or offers patches to the Software is governed by this Agreement unless separate license terms accompany such update, upgrade, supplement, replacement, or patch, in which case such separate terms will govern in the event of a conflict with this Agreement or as otherwise provided in such separate terms.[LF][LF]3.        License Limitations. The preceding states the entirety of your rights with respect to the Software, and we reserve all rights in and to the Software and Services not expressly granted to you in this Agreement. Without limiting the foregoing, you will not do, or authorize or permit any third party to do, any of the following: (a) distribute, license or sell the Software; (b) use the Software for any purpose other than your own personal, noncommercial use; (c) reverse engineer, decompile, disassemble or attempt to discover the source code for the Software; (d) modify, alter or create any derivative works of the Software; (e) remove, alter or obscure any copyright, trademark or other proprietary rights notice on or in the Software; (f) use the Software to commit any crime or violate any applicable local, state, national, or international law, regulation, ordinance, or treaty including, but not limited to, any fraud, misrepresentation, money laundering, or illegal gambling; (g) use the Software to access, or attempt to access, facilities, networks, equipment, or systems of Snapshot, Snapshot Parties (as defined below), another user, or any other third party, including any partner of Snapshot, without authorization; (h) use or access the Software for the purposes of, or in connection with, (1) using, or attempting to use, any cheat codes, devices, tools, or processes, including, but not limited to, any third-party code sets or utilities (including any code sets or utilities developed by you or on your behalf), or (2) distributing, publishing, or otherwise making available or publicizing in any way any such cheat codes, devices, tools, or processes; or (i) circumvent or attempt to circumvent any methods employed by Snapshot to control access to the components, features or functions of the Software or Service. [LF][LF]4.        Ownership. The Software is the valuable property of Snapshot and its licensors and is protected by copyright and other intellectual property laws and treaties. We and our licensors own all right, title and interest in and to the Software, including all copyright and other intellectual property rights in the Software.[LF][LF]5.        Feedback. In the course of using the Software, you may provide to Snapshot materials, information and feedback on the Software (including, without limitation, questions, comments, suggestions, or the like) regarding the performance, features, gameplay and functionality of the Software or Service (“Feedback”). .  You hereby grant to Snapshot an exclusive, royalty-free, irrevocable, perpetual worldwide right and license to reproduce, use, disclose, exhibit, display, transform, create derivative works and distribute any such Feedback without limitation. Further, we will be free to use any ideas, concepts, know-how or techniques contained in such Feedback for any purpose whatsoever, including, without limitation, developing, manufacturing, marketing and selling products and services incorporating such Feedback. We will have no obligation to consider, use, return or preserve any Feedback you provide to us. Any Feedback you provide to us may or may not be treated confidentially by us, and we will have no obligation or liability to you for the use or disclosure of any Feedback. You should not to expect any compensation of any kind from us with respect to your Feedback. [LF][LF]6.        Disclaimers. YOU ACKNOWLEDGE THE SOFTWARE AND SERVICE ARE PROVIDED “AS IS,” WITH ALL FAULTS, DEFECTS AND ERRORS, AND WITHOUT WARRANTY OF ANY KIND. SNAPSHOT DISCLAIMS ALL WARRANTIES (EXPRESS OR IMPLIED AND ARISING BY LAW OR OTHERWISE) REGARDING THE SOFTWARE AND SERVICE AND THEIR PERFORMANCE OR SUITABILITY FOR YOUR INTENDED USE, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. WITHOUT LIMITING THE FOREGOING, SNAPSHOT DOES NOT WARRANT THAT THE SOFTWARE WILL BE FREE OF BUGS, ERRORS, VIRUSES, OR OTHER DEFECTS.  SNAPSHOT WILL HAVE NO LIABILITY OF ANY KIND FOR THE USE OF OR INABILITY TO USE THE SOFTWARE OR ANY SERVICE THAT THE SOFTWARE IS INTENDED TO ACCESS, OR FOR ANY LOSS OF DATA.  PORTIONS OF THE SOFTWARE INCLUDE USER CONTENT WHICH MAY BE DEEMED TO BE OBSCENE OR OFFENSIVE.  SNAPSHOT CANNOT (A) REVIEW ALL USER CONTENT BEFORE IT IS INTEGRATED INTO THE SOFTWARE AND (B) ENSURE PROMPT REMOVAL OF OBJECTIONABLE MATERIAL AFTER IT HAS BEEN INTEGRATED INTO THE SOFTWARE. ACCORDINGLY, SNAPSHOT WILL HAVE NO LIABILITY OF ANY KIND FOR ANY ACTION OR INACTION REGARDING TRANSMISSIONS, COMMUNICATIONS, OR CONTENT PROVIDED BY ANY USER OR THIRD PARTY. [LF][LF]7.        Indemnification. You will defend, indemnify and hold harmless Snapshot, its affiliates, independent contractors and service providers, and each of their respective members, directors, officers, employees and agents (“Snapshot Parties”), from and against all claims, damages, costs, liabilities and expenses (including, but not limited to, reasonable attorneys’ fees) arising out of or related to your use of, or inability to use, the Software or Service.  IF YOU ARE AN ELIGIBLE MINOR, YOUR PARENTS OR LEGAL GUARDIANS FURTHER WILL DEFEND, INDEMNIFY AND HOLD HARMLESS EACH OF THE SNAPSHOT PARTIES FROM ANY CLAIMS, DAMAGES, COSTS, INJURIES, LOSSES, OR EXPENSES ARISING OUT OF OR RELATED TO YOUR USE OF, OR INABILITY TO USE, THE SOFTWARE.[LF][LF][LF]"
 msgstr "SNAPSHOT GAMES, INC.[LF]UMOWA LICENCYJNA UŻYTKOWNIKA KOŃCOWEGO[LF][LF]Niniejsza Umowa Licencyjna Użytkownika Końcowego („Umowa”) jest umową zawartą między użytkownikiem a firmą Snapshot Games, Inc. („firma Snapshot”, „my” lub „nas”) w związku z korzystaniem z gry komputerowej Phoenix Point (zbiorczo „Oprogramowanie”).[LF][LF]UMOWĘ NALEŻY UWAŻNIE PRZECZYTAĆ. ZAWIERA ONA ISTOTNE WARUNKI DOTYCZĄCE UŻYTKOWNIKA, KORZYSTANIA PRZEZ NIEGO Z OPROGRAMOWANIA ORAZ INFORMACJI ZWROTNYCH (ZGODNIE Z PONIŻSZĄ DEFINICJĄ), KTÓRE UŻYTKOWNIK NAM PRZEKAZUJE. KLIKAJĄC PRZYCISK „AKCEPTUJĘ” „ZGADZAM SIĘ” LUB W PODOBNY SPOSÓB POTWIERDZAJĄC AKCEPTACJĘ BĄDŹ POBIERAJĄC OPROGRAMOWANIE, INSTALUJĄC JE, KOPIUJĄC LUB UŻYWAJĄC GO, UŻYTKOWNIK ZGADZA SIĘ PRZESTRZEGAĆ WARUNKÓW NINIEJSZEJ UMOWY. W PRZYPADKU BRAKU ZGODY NA NINIEJSZE WARUNKI NIE NALEŻY POBIERAĆ, INSTALOWAĆ, KOPIOWAĆ ANI UŻYWAĆ OPROGRAMOWANIA ORAZ PRZEKAZYWAĆ NAM INFORMACJI ZWROTNYCH. NINIEJSZA UMOWA STANOWI WAŻNĄ I WIĄŻĄCĄ UMOWĘ PRAWNĄ POMIĘDZY UŻYTKOWNIKIEM A NASZĄ FIRMĄ.[LF][LF]Informacje dotyczące sposobu, w jaki gromadzimy i wykorzystujemy informacje użytkownika, można znaleźć w naszych zasadach ochrony prywatności dostępnych pod następującym adresem: https://phoenixpoint.info/privacy-policy.[LF][LF]1.        Akceptacja niniejszej Umowy.[LF](a)        Przez osobę w wieku 18 lat lub starszą. Każda osoba w wieku co najmniej 18 lat lub w wieku pełnoletności zgodnie z właściwym prawem może zaakceptować warunki niniejszej Umowy, wybierając opcję „Akceptuję”, „Zgadzam się” lub w podobny sposób potwierdzając akceptację umowy bądź pobierając, instalując albo kopiując Oprogramowanie lub korzystając z niego. Akceptując warunki niniejszej Umowy, użytkownik potwierdza, że przeczytał, zrozumiał i zaakceptował te warunki, a także wyraża zgodę na ich przestrzeganie.[LF]b)        Przez osobę w wieku od 13 do 17 lat. Każda osoba niepełnoletnia (w zależności od kraju lub regionu zamieszkania) w wieku co najmniej 13 lat (zwana dalej „Uprawnionym małoletnim”) musi uzyskać zgodę rodzica lub opiekuna prawnego na warunki niniejszej Umowy. Rodzic lub opiekun prawny Uprawnionego małoletniego może zaakceptować warunki niniejszej Umowy, wybierając opcję „Akceptuję”, „Zgadzam się” lub w podobny sposób potwierdzając akceptację umowy bądź pobierając, instalując albo kopiując Oprogramowanie lub korzystając z niego w imieniu Uprawnionego małoletniego. Akceptując warunki niniejszej Umowy, rodzic lub opiekun prawny Uprawnionego małoletniego potwierdza, że przeczytał, zrozumiał i zaakceptował te warunki w imieniu Uprawnionego małoletniego i swoim, a także wyraża zgodę na ich przestrzeganie. Nie ograniczając powyższego, rodzice i opiekunowie prawni przyjmują do wiadomości, że są odpowiedzialni za aktywność i działania podległych im Uprawnionych niepełnoletnich w związku z instalacją, kopiowaniem oraz używaniem Oprogramowania.[LF](c)        Przez osobę poniżej 13. roku życia. Oprogramowanie nie jest skierowane do osób poniżej 13. roku życia ani przeznaczone do użytku przez takie osoby. Dzieci poniżej 13. roku życia nie są uprawnione do instalowania, kopiowania ani używania Oprogramowania, niezależnie od tego, czy uzyskały zgodę rodzica lub opiekuna prawnego.[LF]d)        Przepisy dotyczące kontroli przywozu i wywozu. Użytkownik nie może zaakceptować warunków niniejszej Umowy ani pobierać, instalować, kopiować oraz używać Oprogramowania, jeśli (a) jest mieszkańcem kraju objętego embargiem Stanów Zjednoczonych lub (b) znajduje się na liście wyszczególnionych obywateli Departamentu Skarbu Stanów Zjednoczonych albo na liście osób lub podmiotów wykluczonych Departamentu Handlu Stanów Zjednoczonych. Pobierając lub instalując dowolny składnik Oprogramowania bądź korzystając z niego, użytkownik oświadcza i gwarantuje, że nie znajduje się w żadnym z wymienionych krajów i jurysdykcji, nie jest pod ich kontrolą oraz nie jest ich obywatelem ani mieszkańcem, a także nie znajduje się na żadnej z takich list.[LF][LF]2.        Licencja na oprogramowanie. Zgodnie z warunkami niniejszej Umowy oraz przy zastrzeżeniu przestrzegania przez użytkownika warunków świadczenia usług, warunków użytkowania, umowy subskrybenckiej lub innych warunków witryny internetowej, z której użytkownik uzyskuje Oprogramowanie („Warunki świadczenia usług”), regulujących korzystanie z usług tej witryny między innymi w celu uzyskania Oprogramowania, oraz pod warunkiem przestrzegania przez użytkownika wszelkich innych umów zawartych z nami, regulujących korzystanie z usług związanych z Oprogramowaniem („Usługa”), przyznajemy niewyłączną, nieprzenoszalną, niepodlegającą podlicencjonowaniu licencję na pobieranie, instalowanie i używanie jednej kopii Oprogramowania w formie binarnego pliku wykonywalnego na dokładnie jednym komputerze wyłącznie na potrzeby osobistego korzystania z Oprogramowania i Usługi. Warunki niniejszej Umowy uzupełniają wszelkie obowiązujące Warunki świadczenia usług i zastępują je w przypadku konfliktu. Wszelkie oprogramowanie firmy Snapshot, które aktualizuje, uaktualnia, uzupełnia albo zastępuje Oprogramowanie lub udostępnia poprawki do niego, podlega postanowieniom niniejszej Umowy, chyba że takim aktualizacjom, uaktualnieniom, uzupełnieniom, zastępstwom lub poprawkom towarzyszą osobne postanowienia licencyjne, w którym to przypadku takie osobne postanowienia będą miały zastosowanie w razie wystąpienia konfliktu z niniejszą Umową lub w inny sposób przewidziany w tych postanowieniach.[LF][LF]3.        Ograniczenia licencji. Powyższe postanowienia określają całość praw użytkownika w odniesieniu do Oprogramowania. Zastrzegamy sobie ponadto wszelkie prawa do Oprogramowania i Usług, których nie przyznano użytkownikowi wyraźnie w niniejszej Umowie. Bez uszczerbku dla powyższego użytkownik zobowiązuje się nie wykonywać żadnych z poniższych czynności ani nie upoważniać do tego jakiejkolwiek osoby trzeciej bądź zezwalać jej na to: (a) dystrybucja i sprzedaż Oprogramowania oraz udzielanie na nie licencji; (b) używanie Oprogramowania do jakiegokolwiek celu innego niż do osobistego, niekomercyjnego użytku; (c) poddawanie inżynierii wstecznej, dekompilowanie, dezasemblowanie lub podejmowanie prób odtworzenia kodu źródłowego Oprogramowania; (d) modyfikowanie lub tworzenie dzieł pochodnych na podstawie Oprogramowania; (e) usuwanie, modyfikowanie lub ukrywanie jakichkolwiek informacji o prawach autorskich, znakach towarowych i innych prawach własności dotyczących Oprogramowania; (f) używanie Oprogramowania do popełnienia jakiegokolwiek przestępstwa lub naruszenia obowiązującego prawa lokalnego, stanowego, krajowego lub międzynarodowego, a także przepisów, rozporządzeń lub traktatów (m.in. wszelkie oszustwa, wprowadzanie w błąd, pranie brudnych pieniędzy lub nielegalny hazard); (g) używanie Oprogramowania w celu uzyskania dostępu lub próby uzyskania dostępu do obiektów, sieci, urządzeń lub systemów firmy Snapshot, Podmiotów firmy Snapshot (zgodnie z definicją poniżej), innego użytkownika lub dowolnej innej osoby trzeciej, w tym partnerów firmy Snapshot, bez upoważnienia; (h) używanie lub uzyskiwanie dostępu do Oprogramowania w celach lub w związku z (1) używaniem lub próbą użycia jakichkolwiek kodów, urządzeń, narzędzi lub procesów służących do oszukiwania, m.in. wszelkich zestawów kodów lub narzędzi osób trzecich (w tym zestawów kodów lub narzędzi opracowanych przez użytkownika lub w jego imieniu) albo (2) dystrybucją, publikowaniem oraz udostępnianiem lub reklamowaniem w jakikolwiek inny sposób wszelkich takich kodów, urządzeń, narzędzi lub procesów; (i) obchodzenie lub próby obejścia wszelkich metod stosowanych przez firmę Snapshot w celu kontrolowania dostępu do składników, funkcji lub funkcjonalności Oprogramowania lub Usługi. [LF][LF]4.        Własność. Oprogramowanie stanowi cenną własność firmy Snapshot oraz jej licencjodawców i jest chronione przez prawa autorskie oraz inne przepisy i traktaty dotyczące prawa własności intelektualnej. Nasza firma i jej licencjodawcy posiadają wszelkie prawa do Oprogramowania, w tym wszelkie prawa autorskie i inne prawa własności intelektualnej.[LF][LF]5.        Informacje zwrotne. W trakcie korzystania z Oprogramowania użytkownik może przekazać firmie Snapshot materiały, dane i informacje zwrotne związane z Oprogramowaniem (w tym między innymi pytania, uwagi, sugestie itp.), dotyczące działania, funkcji, rozgrywki i funkcjonalności Oprogramowania lub Usługi („Informacje zwrotne”). Użytkownik niniejszym udziela firmie Snapshot wyłącznej, wolnej od tantiem, nieodwołalnej, wieczystej, nieograniczonej terytorialnie licencji na powielanie, używanie, ujawnianie, wystawianie, prezentowanie, modyfikowanie, tworzenie dzieł pochodnych na podstawie i rozpowszechnianie takich Informacji zwrotnych bez ograniczeń. Ponadto zastrzegamy sobie prawo do wykorzystania dowolnych pomysłów, koncepcji, wiedzy lub technik zawartych w takich Informacjach zwrotnych do dowolnych celów, w tym między innymi do opracowywania, produkcji, promowania i sprzedaży produktów i usług z uwzględnieniem Informacji zwrotnych. Nie mamy obowiązku uwzględniania, wykorzystywania bądź zachowywania Informacji zwrotnych przekazanych nam przez użytkownika ani odpowiadania na nie. Wszelkie Informacje zwrotne przekazane nam przez użytkownika mogą być traktowane poufnie bądź nie, a nasza spółka nie ma wobec niego żadnego obowiązku dotyczącego wykorzystywania lub ujawniania Informacji zwrotnych ani nie ponosi odpowiedzialności z tego tytułu. Za przekazane Informacje zwrotne użytkownikowi nie przysługuje żadne wynagrodzenie w jakiejkolwiek postaci. [LF][LF]6.        Zastrzeżenia. UŻYTKOWNIK PRZYJMUJE DO WIADOMOŚCI, ŻE OPROGRAMOWANIE I USŁUGA SĄ DOSTARCZANE „W STANIE, W JAKIM SĄ”, Z WSZELKIMI WADAMI I BŁĘDAMI ORAZ BEZ JAKICHKOLWIEK GWARANCJI. FIRMA SNAPSHOT WYŁĄCZA WSZELKIE GWARANCJE (WYRAŹNE, DOROZUMIANE, WYNIKAJĄCE Z PRZEPISÓW LUB POWSTAŁE W INNY SPOSÓB) DOTYCZĄCE OPROGRAMOWANIA I USŁUGI ORAZ ICH DZIAŁANIA LUB PRZYDATNOŚCI DO ZAMIERZONEGO CELU UŻYTKOWNIKA, W TYM MIĘDZY INNYMI WSZELKIE DOROZUMIANE GWARANCJE PRZYDATNOŚCI HANDLOWEJ, PRZYDATNOŚCI DO OKREŚLONEGO CELU LUB NIENARUSZANIA PRZEPISÓW. BEZ OGRANICZANIA POWYŻSZEGO, FIRMA SNAPSHOT NIE GWARANTUJE, ŻE OPROGRAMOWANIE BĘDZIE WOLNE OD USTEREK, BŁĘDÓW, WIRUSÓW I INNYCH WAD. FIRMA SNAPSHOT NIE PONOSI JAKIEJKOLWIEK ODPOWIEDZIALNOŚCI ZA KORZYSTANIE PRZEZ UŻYTKOWNIKA LUB NIEMOŻNOŚĆ KORZYSTANIA Z OPROGRAMOWANIA LUB JAKIEJKOLWIEK INNEJ USŁUGI, DO KTÓREJ DOSTĘP OPROGRAMOWANIE MA W ZAMIERZENIU UZYSKIWAĆ, ANI ZA JAKĄKOLWIEK UTRATĘ DANYCH. NIEKTÓRE CZĘŚCI OPROGRAMOWANIA ZAWIERAJĄ MATERIAŁY UŻYTKOWNIKÓW, KTÓRE MOGĄ BYĆ UZNANE ZA OBSCENICZNE LUB OBRAŹLIWE. FIRMA SNAPSHOT NIE MOŻE (A) WERYFIKOWAĆ WSZYSTKICH MATERIAŁÓW UŻYTKOWNIKÓW PRZED ZINTEGROWANIEM ICH Z OPROGRAMOWANIEM ANI (B) ZAPEWNIĆ SZYBKIEGO USUNIĘCIA MATERIAŁÓW BUDZĄCYCH ZASTRZEŻENIA PO ZINTEGROWANIU ICH Z OPROGRAMOWANIEM. W ZWIĄZKU Z POWYŻSZYM, FIRMA SNAPSHOT NIE PONOSI JAKIEJKOLWIEK ODPOWIEDZIALNOŚCI ZA JAKIEKOLWIEK DZIAŁANIA LUB ZANIECHANIA ZWIĄZANE Z TRANSMISJĄ, KOMUNIKACJĄ LUB MATERIAŁAMI DOSTARCZANYMI PRZEZ JAKIEGOKOLWIEK UŻYTKOWNIKA LUB OSOBĘ TRZECIĄ. [LF][LF]7.        Zwolnienie z odpowiedzialności. Użytkownik będzie chronić i zabezpieczać firmę Snapshot, jej podmioty stowarzyszone, niezależnych wykonawców i dostawców usług oraz każdego z ich członków, dyrektorów, członków zarządu, pracowników i agentów („Podmioty firmy Snapshot”) przed wszelkimi roszczeniami, szkodami, kosztami, zobowiązaniami i wydatkami (w tym m.in. uzasadnionymi honorariami prawników) wynikającymi z korzystania z Oprogramowania lub Usługi bądź niemożności korzystania z nich albo z nimi związanymi. JEŻELI UŻYTKOWNIK JEST UPRAWNIONYM MAŁOLETNIM, JEGO RODZICE LUB OPIEKUNOWIE PRAWNI BĘDĄ PONADTO CHRONIĆ I ZABEZPIECZAĆ KAŻDY Z PODMIOTÓW FIRMY SNAPSHOT PRZED WSZELKIMI ROSZCZENIAMI, SZKODAMI, KOSZTAMI, OBRAŻENIAMI, STRATAMI LUB WYDATKAMI WYNIKAJĄCYMI Z KORZYSTANIA PRZEZ UŻYTKOWNIKA Z OPROGRAMOWANIA LUB NIEMOŻNOŚCI KORZYSTANIA Z NIEGO ALBO Z NIMI ZWIĄZANYMI.[LF][LF][LF]"
 
-msgctxt "Opening Screen/KEY_BSNAPSHOT_GAMES_INC_BACKER_BUILD_END2"
-msgid "8.        Limitation of Liability.  IN NO EVENT WILL ANY OF THE SNAPSHOT PARTIES BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY INDIRECT, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, LOSS OF USE, LOSS OF PROFITS, OR LOSS OF DATA, WHETHER IN AN ACTION IN CONTRACT, TORT (INCLUDING BUT NOT LIMITED TO NEGLIGENCE, WHETHER ACTIVE, PASSIVE, OR IMPUTED), OR OTHERWISE, ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE SOFTWARE OR SERVICE, INCLUDING, WITHOUT LIMITATION, ANY DAMAGES CAUSED BY OR RESULTING FROM MISTAKES, OMISSIONS, INTERRUPTIONS, DELETION OF FILES OR E-MAIL, ERRORS, DEFECTS, VIRUSES, DELAYS IN OPERATION OR TRANSMISSION, OR ANY FAILURE OF PERFORMANCE, WHETHER OR NOT RESULTING FROM ACTS OF GOD, COMMUNICATIONS FAILURE, THEFT, DESTRUCTION, OR UNAUTHORIZED ACCESS TO SNAPSHOT’S RECORDS, PROGRAMS, OR SERVICES.  IN NO EVENT WILL THE AGGREGATE LIABILITY OF SNAPSHOT, WHETHER IN CONTRACT, WARRANTY, TORT (INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE, WHETHER ACTIVE, PASSIVE, OR IMPUTED), PRODUCT LIABILITY, STRICT LIABILITY, OR OTHER THEORY, ARISING OUT OF OR RELATING TO THE SOFTWARE EXCEED THE PURCHASE PRICE THAT YOU PAID FOR A LICENSE TO THE SOFTWARE OR SERVICE.[CR][LF][CR][LF]9.        Arbitration; Governing Law.  [CR][LF][CR][LF]PLEASE READ THE FOLLOWING PARAGRAPH CAREFULLY BECAUSE IT REQUIRES YOU TO ARBITRATE DISPUTES AND LIMITS THE MANNER IN WHICH YOU CAN SEEK RELIEF FROM US.[CR][LF][CR][LF]You and Snapshot will arbitrate any dispute arising from this Agreement and your use of the Software, except that you and Snapshot are not required to arbitrate any dispute in which either party seeks equitable and other relief for the alleged unlawful use of copyrights, trademarks, trade names, logos, trade secrets, or patents. ARBITRATION PREVENTS YOU FROM SUING IN COURT OR FROM HAVING A JURY TRIAL. [CR][LF]You and Snapshot will notify each other in writing of any dispute within thirty (30) days of when it arises. Notice to Snapshot will be sent to Snapshot Games, Inc., Attn: David Kaye, 145 S Fairfax Ave #200, Los Angeles CA 90036.  You and Snapshot further agree: to attempt informal resolution prior to any demand for arbitration; that any arbitration will occur in Los Angeles County, California; that arbitration will be conducted confidentially by a single arbitrator in accordance with the JAMS Streamlined Arbitration Rules; and that the state or federal courts in Los Angeles County, California have exclusive jurisdiction over any appeals of an arbitration award and over any suit between the parties not subject to arbitration. Other than class procedures and remedies discussed below, the arbitrator has the authority to grant any remedy that would otherwise be available in court.  Any dispute between the parties will be governed solely by both this Agreement and the laws of the State of California and applicable United States law, without giving effect to any conflict of laws principles that may provide for the application of the law of another jurisdiction.  The 1980 U.N. Convention on Contracts for the International Sale of Goods will not apply to this Agreement.  Whether the dispute is heard in arbitration or in court, you and Snapshot will not commence against the other a class action, class arbitration or other representative action or proceeding.[CR][LF][CR][LF]10.        Termination. Snapshot may terminate this Agreement at any time, with or without cause, immediately upon notice to you. Snapshot may also discontinue the Service at any time, in which case this Agreement will terminate automatically without notice. You may terminate this Agreement by ceasing use of the Software and Service, cancelling any account you may have with us to use the Service (if any), and deleting all copies of the Software in your possession or control. In the event of the termination of this Agreement for any reason: (a) the license granted to you in this Agreement will terminate; (b) you must immediately cease all use of the Software and Service and destroy or erase all copies of the Software in your possession or control; and (c) all sections of this Agreement except Section 2 will survive any such termination, together with the Terms of Service.[CR][LF][CR][LF][CR][LF]11.        Import and Export Control Laws.  Snapshot is subject to regulation by agencies of the United States, such as the U.S. Department of Commerce, which prohibit export of certain products or technology to certain countries or nationals of certain countries.  You will not use or otherwise export or re-export the Software except as authorized by U.S. law and the laws of the jurisdiction in which the Software was obtained.  In particular, but without limitation, the Software may not be exported or re-exported (a) into (or to a nation or resident of) any U.S. embargoed countries or (b) to anyone on the U.S. Treasury Department’s list of Specially Designated Nationals or the U.S. Department of Commerce Denied Person’s List or Entity List.  [CR][LF][CR][LF]12.        General. (a) Severability. If any provision of this Agreement is held by a court of competent jurisdiction to be invalid, illegal, or unenforceable, the remainder of this Agreement will remain in full force and effect. (b) Assignment. You may not assign this Agreement or any of its rights under this Agreement without the prior written consent of Snapshot, and any attempted assignment without such consent will be void. Subject to the foregoing restriction, this Agreement will be fully binding upon, inure to the benefit of, and be enforceable by you, us, and each of your and our respective successors and assigns. (c) Entire Agreement. This Agreement, together with the Terms of Service, sets forth our entire agreement with respect to your use of the Software or Service and the subject matter hereof, and supersedes all prior and contemporaneous understandings and agreements whether written or oral.  No amendment, modification, or waiver of any of the provisions of this Agreement will be valid unless set forth in a written instrument signed by the party to be bound thereby. (d) Language. This Agreement is in the English language, which language will be controlling, even if interpretations of this Agreement in other languages are made."
-msgstr "8.        Ograniczenie odpowiedzialności. W ŻADNYM WYPADKU JAKIKOLWIEK Z PODMIOTÓW FIRMY SNAPSHOT NIE BĘDZIE PONOSIĆ ODPOWIEDZIALNOŚCI WOBEC UŻYTKOWNIKA ANI ŻADNEJ OSOBY TRZECIEJ ZA JAKIEKOLWIEK SZKODY POŚREDNIE, WTÓRNE, SPECJALNE LUB KARNE, W TYM MIĘDZY INNYMI ZA UTRATĘ UŻYTECZNOŚCI, UTRATĘ ZYSKÓW LUB UTRATĘ DANYCH, CZY TO POPRZEZ DZIAŁANIE W RAMACH UMOWY, DELIKT (W TYM CZYNNE, BIERNE LUB PRZYPISANE ZANIEDBANIE), CZY W INNY SPOSÓB, WYNIKAJĄCE Z OPROGRAMOWANIA LUB USŁUGI ALBO W JAKIKOLWIEK SPOSÓB Z NIMI ZWIĄZANE, W TYM W SZCZEGÓLNOŚCI WSZELKIE SZKODY SPOWODOWANE POMYŁKAMI, POMINIĘCIAMI, PRZERWAMI W DOSTĘPIE, USUNIĘCIEM PLIKÓW LUB WIADOMOŚCI E-MAIL, BŁĘDAMI, WADAMI, WIRUSAMI, OPÓŹNIENIAMI W DZIAŁANIU LUB TRANSMISJI, A TAKŻE JAKIMIKOLWIEK PROBLEMAMI Z DZIAŁANIEM, NIEZALEŻNIE OD TEGO, CZY WYNIKA TO Z DZIAŁANIA SIŁY WYŻSZEJ, AWARII KOMUNIKACJI, KRADZIEŻY, ZNISZCZENIA LUB NIEUPOWAŻNIONEGO DOSTĘPU DO ARCHIWÓW, PROGRAMÓW LUB USŁUG FIRMY SNAPSHOT. W ŻADNYM WYPADKU ŁĄCZNA ODPOWIEDZIALNOŚĆ FIRMY SNAPSHOT, CZY TO W RAMACH UMOWY, GWARANCJI, DELIKTU (W TYM CZYNNEGO, BIERNEGO LUB PRZYPISANEGO ZANIEDBANIA), ODPOWIEDZIALNOŚCI ZA SKUTKI WAD PRODUKTU, ODPOWIEDZIALNOŚCI BEZPOŚREDNIEJ LUB INNEJ, WYNIKAJĄCEJ Z OPROGRAMOWANIA LUB ZWIĄZANEJ Z NIM, NIE MOŻE PRZEKROCZYĆ CENY ZAKUPU ZAPŁACONEJ PRZEZ UŻYTKOWNIKA ZA LICENCJĘ NA OPROGRAMOWANIE LUB USŁUGĘ.[CR][LF][CR][LF]9.        Arbitraż; prawo właściwe.  [CR][LF][CR][LF]NALEŻY UWAŻNIE PRZECZYTAĆ PONIŻSZY AKAPIT, GDYŻ NAKŁADA ON WYMÓG ROZSTRZYGANIA SPORÓW W DRODZE ARBITRAŻU I OGRANICZA PRZYSŁUGUJĄCE UŻYTKOWNIKOWI FORMY DOCHODZENIA ROSZCZEŃ WOBEC NASZEJ FIRMY.[CR][LF][CR][LF]Użytkownik i firma Snapshot zgadzają się rozstrzygać wszelkie spory wynikające z niniejszej Umowy, a także z korzystania z Oprogramowania przez użytkownika w drodze arbitrażu, przy czym obowiązek ten nie dotyczy sporów, w których jakakolwiek ze stron dochodzi zadośćuczynienia na zasadzie słuszności lub zastosowania innych środków z tytułu domniemanego bezprawnego wykorzystywania praw autorskich, znaków towarowych, nazw handlowych, logo, tajemnic handlowych lub patentów. W PRZYPADKU ZASTOSOWANIA ARBITRAŻU UŻYTKOWNIK TRACI PRAWO DO WYSTĄPIENIA DO SĄDU LUB ROZPRAWY Z UDZIAŁEM PRZYSIĘGŁYCH. [CR][LF]Użytkownik i firma Snapshot zobowiązują się powiadomić drugą stronę na piśmie o ewentualnym sporze w ciągu trzydziestu (30) dni od jego powstania. Powiadomienie dla firmy Snapshot należy wysłać na adres Snapshot Games, Inc., Attn: David Kaye, 145 S Fairfax Ave #200, Los Angeles CA 90036. Użytkownik i firma Snapshot zgadzają się ponadto, że: przed zażądaniem arbitrażu podejmą próbę rozstrzygnięcia sporu w drodze nieformalnej; wszelkie postępowania arbitrażowe będą prowadzone w hrabstwie Los Angeles w stanie Kalifornia; takie postępowanie arbitrażowe będzie prowadzone poufnie przez pojedynczego arbitra zgodnie z uproszczonymi zasadami arbitrażu JAMS; oraz że sądy stanowe lub federalne hrabstwa Los Angeles w stanie Kalifornia mają wyłączną właściwość w sprawach apelacji dotyczących wszelkich orzeczeń arbitrażowych oraz w sprawach niepodlegających arbitrażowi roszczeń między stronami. Oprócz omówionych niżej procedur i środków prawnych dotyczących pozwów zbiorowych i grupowego postępowania arbitrażowego arbiter ma prawo zasądzić każdy środek prawny, jaki mógłby zostać zasądzony w przypadku skierowania sprawy do sądu. Wszelkie spory między stronami podlegają wyłącznie niniejszej Umowie i przepisom stanu Kalifornia oraz właściwym przepisom Stanów Zjednoczonych, bez odwoływania się do zawartych w tychże przepisach norm kolizyjnych, które mogą przewidywać możliwość zastosowania prawa innej jurysdykcji. Do niniejszej Umowy nie ma zastosowania konwencja Narodów Zjednoczonych o umowach międzynarodowej sprzedaży towarów z 1980 r. Niezależnie od tego, czy spór jest rozstrzygany na drodze postępowania arbitrażowego, czy sądowego, użytkownik i firma Snapshot zobowiązują się nie wnosić wobec drugiej strony pozwów zbiorowych ani wszczynać grupowego postępowania arbitrażowego bądź innego powództwa lub postępowania przedstawicielskiego.[CR][LF][CR][LF]10.        Rozwiązanie umowy. Firma Snapshot może rozwiązać niniejszą Umowę w dowolnej chwili, z podaniem lub bez podania przyczyny, a rozwiązanie takie wchodzi w życie z chwilą powiadomienia użytkownika. Firma Snapshot może również wstrzymać świadczenie Usługi w dowolnej chwili. W takim przypadku Umowa wygaśnie automatycznie, bez potrzeby powiadomienia drugiej strony. Użytkownik może rozwiązać niniejszą Umowę poprzez zaprzestanie korzystania z Oprogramowania i Usługi, anulowanie posiadanego u nas konta używanego do korzystania z Usługi (jeżeli dotyczy) oraz usunięcie wszelkich kopii Oprogramowania będących w posiadaniu lub pod kontrolą użytkownika. W przypadku rozwiązania niniejszej Umowy z jakiejkolwiek przyczyny: (a) licencja udzielona użytkownikowi na mocy niniejszej Umowy wygaśnie; (b) użytkownik musi niezwłocznie zaprzestać korzystania z Oprogramowania i Usługi oraz zniszczyć lub usunąć wszelkie kopie Oprogramowania będące w jego posiadaniu albo pod jego kontrolą; oraz (c) wszystkie punkty niniejszej Umowy, z wyjątkiem punktu 2, zachowają moc po jej rozwiązaniu, wraz z Warunkami świadczenia usług.[CR][LF][CR][LF][CR][LF]11.        Przepisy dotyczące kontroli przywozu i wywozu. Firma Snapshot podlega regulacjom agencji Stanów Zjednoczonych, takich jak Departament Handlu Stanów Zjednoczonych, które zakazują eksportu pewnych produktów lub technologii do określonych krajów i przekazywania ich obywatelom określonych krajów. Użytkownik nie będzie używał ani w inny sposób eksportował lub reeksportował Oprogramowania poza sytuacjami dopuszczonymi przez prawo Stanów Zjednoczonych oraz prawo obowiązujące w jurysdykcji, w której uzyskano Oprogramowanie. W szczególności i bez ograniczeń Oprogramowania nie można eksportować i reeksportować (a) do żadnego z krajów objętych embargiem Stanów Zjednoczonych (dotyczy to też obywateli i rezydentów tych krajów) ani (b) do osób znajdujących się na liście wyszczególnionych obywateli Departamentu Skarbu Stanów Zjednoczonych oraz na liście osób lub podmiotów wykluczonych Departamentu Handlu Stanów Zjednoczonych.  [CR][LF][CR][LF]12.        Postanowienia ogólne. (a) Podzielność. Jeśli jakiekolwiek postanowienie niniejszej Umowy zostanie uznane przez właściwy sąd za nieważne, bezprawne lub niewykonalne, jej pozostałe postanowienia zachowają pełną moc. (b) Cesja. Użytkownik nie może dokonać cesji niniejszej Umowy ani jakichkolwiek przyznanych na jej mocy praw bez uprzedniej zgody na piśmie firmy Snapshot, a wszelkie próby dokonania cesji bez takiej zgody będą nieważne. Z zastrzeżeniem powyższego ograniczenia niniejsza Umowa będzie w pełni wiążąca i obowiązująca z korzyścią dla użytkownika i firmy Snapshot oraz ich następców prawnych i cesjonariuszy, a także możliwa do wyegzekwowania przez te podmioty. (c) Całość umowy. Niniejsza Umowa, wraz z Warunkami świadczenia usług, stanowi całość umowy w odniesieniu do korzystania z Oprogramowania lub Usługi i ich przedmiotu oraz zastępuje wszelkie wcześniejsze i równoczesne porozumienia i umowy, zarówno pisemne, jak i ustne. Żadna zmiana, modyfikacja lub unieważnienie któregokolwiek z postanowień niniejszej Umowy nie będą ważne, o ile nie zostaną określone w pisemnym dokumencie podpisanym przez stronę w sposób wiążący. (d) Język. Niniejsza Umowa została sporządzona w języku angielskim, który jest językiem nadrzędnym, nawet w przypadku interpretacji lub tłumaczenia Umowy na inne języki."
-
 msgctxt "Opening Screen/KEY_CONTINUE_GAME"
 msgid "CONTINUE"
 msgstr "KONTYNUUJ"
@@ -9815,7 +10235,7 @@ msgid "SPECIAL MISSION"
 msgstr "MISJA SPECJALNA"
 
 msgctxt "Geoscape/KEY_FACILITY_BUILDING"
-msgid "FACILITY IS BUILDING"
+msgid "FACILITY UNDER CONSTRUCTION"
 msgstr "OBIEKT W BUDOWIE"
 
 msgctxt "Geoscape/KEY_ODI_TT"
@@ -9919,7 +10339,7 @@ msgid "The teeming, chaotic slums of Disciples of Anu havens house the devoted m
 msgstr "Gwarne, chaotycznie zabudowane slumsy Akolitów Anu zamieszkują oddani wierni."
 
 msgctxt "Haven Screen/KEY_HAVEN_ZONE_RESIDENTIAL_DESC_SY"
-msgid "Synedrion constructs the most human centred cvilian amenites as an example of the world they want to create."
+msgid "Synedrion constructs the most human centred civilian amenites as an example of the world they want to create."
 msgstr "Władze Synedrionu konstruują najbardziej cywilizowane obiekty mieszkalne, które mają być przykładem tego, jaki świat chce stworzyć ta frakcja."
 
 msgctxt "Haven Screen/KEY_GEOSCAPE_ZONE_RESIDENTIAL_ELITE_NAME"
@@ -9991,7 +10411,7 @@ msgid "MIST REPELLER"
 msgstr "ROZPRASZACZ MGŁY"
 
 msgctxt "Haven Screen/KEY_GEOSCAPE_ZONE_MIST_DESCRIPTION"
-msgid "Havens will generally provide enough accomodation for their populations, but they are vulnerable to Pandoran attack."
+msgid "Mist repellers create a mist-free zone around the Haven, reducing starvation and the risk of attack from Pandoran bases."
 msgstr "Zasadniczo w bastionach dba się o to, aby każdy mieszkaniec miał dach nad głową, ale takie dzielnice łatwo padają łupem ataków Pandoran."
 
 msgctxt "Haven Screen/KEY_GEOSCAPE_ZONE_MISSIONARY_NAME"
@@ -10075,11 +10495,11 @@ msgid "Send an aircraft with a squad to this haven to conduct a mission here"
 msgstr "Wyślij statek powietrzny z gotową drużyną do tego bastionu, aby wykonać misję"
 
 msgctxt "Haven Screen/KEY_RECRUIT_LEADER_NEGATIVE_DIPLOMACY_TT"
-msgid "Haven leader is unfriendly with Phoenix Point. Improve diplomacy relation to be able to recruit."
+msgid "The haven leader is not friendly towards the Phoenix Project. Improve diplomatic relations to enable recruiting."
 msgstr "Przywódca bastionu jest nieprzyjaźnie nastawiony do Phoenix Point. Aby móc rekrutować, popraw relacje dyplomatyczne."
 
 msgctxt "Haven Screen/KEY_TRADE_LEADER_NEGATIVE_DIPLOMACY_TT"
-msgid "Haven leader is unfriendly with Phoenix Point. Improve diplomacy relation to be able to trade."
+msgid "The haven leader is not friendly towards the Phoenix Project. Improve diplomatic relations to enable trading."
 msgstr "Przywódca bastionu jest nieprzyjaźnie nastawiony do Phoenix Point. Aby móc handlować, popraw relacje dyplomatyczne."
 
 msgctxt "Missions/KEY_MISSION_ALIEN_LAIR"
@@ -10095,7 +10515,7 @@ msgid "PANDORAN  PALACE"
 msgstr "PANDORAŃSKI PAŁAC"
 
 msgctxt "Missions/KEY_MISSION_ATTACK_CITADEL_BRIEFING_DESCRIPTION"
-msgid "Locate and eliminate the Scylla to destroy the Citadel."
+msgid "Locate and eliminate the Scylla and then evacuate your squad"
 msgstr "Znajdź i pokonaj Scyllę, aby zniszczyć cytadelę."
 
 msgctxt "Missions/KEY_MISSION_ATTACK_CITADEL_BRIEFING_NAME"
@@ -10103,7 +10523,7 @@ msgid "ATTACK PANDORAN CITADEL"
 msgstr "ATAK NA PANDORAŃSKĄ CYTADELĘ"
 
 msgctxt "Missions/KEY_MISSION_ATTACK_CITADEL_DEFEAT_DESCRIPTION"
-msgid "The monster that rules this citadel will continue its reign of terror on nearby human settlements."
+msgid "The monster that rules this citadel will continue its reign of terror on nearby human settlements"
 msgstr "Potwór, który grasuje w tej cytadeli, będzie dalej nękał pobliskie osiedla ludzi."
 
 msgctxt "Missions/KEY_MISSION_ATTACK_CITADEL_DEFEAT_NAME"
@@ -10119,8 +10539,8 @@ msgid "PANDORAN CITADEL DESTROYED"
 msgstr "ZNISZCZONO PANDORAŃSKĄ CYTADELĘ"
 
 msgctxt "Missions/KEY_MISSION_ATTACK_LAIR_BRIEFING_DESCRIPTION"
-msgid "Locate and eliminate the Spawnery to destroy the Lair."
-msgstr "Znajdź i usuń wyroisko, aby zniszczyć leże."
+msgid "Locate and eliminate the Spawnery to neutralize the Lair, and then evacuate your squad."
+msgstr "Znajdź i usuń wyroisko, aby zniszczyć leże. Następnie ewakuuj oddział."
 
 msgctxt "Missions/KEY_MISSION_ATTACK_LAIR_BRIEFING_NAME"
 msgid "ATTACK PANDORAN LAIR"
@@ -10159,7 +10579,7 @@ msgid "PANDORAN NEST SURVIVES"
 msgstr "PANDORAŃSKIE GNIAZDO PRZETRWAŁO ATAK"
 
 msgctxt "Missions/KEY_MISSION_ATTACK_NEST_VICTORY_DESCRIPTION"
-msgid "The Pandoran lair has been neutralized and abandoned by its inhabitants. The rest of humanity can breathe a sigh of relief."
+msgid "The Pandoran nest has been neutralized and abandoned by its inhabitants. The rest of humanity can breathe a sigh of relief."
 msgstr "Zneutralizowano pandorańskie leże, a jego mieszkańcy je porzucili. Reszta ludzkości może odetchnąć z ulgą."
 
 msgctxt "Missions/KEY_MISSION_ATTACK_NEST_VICTORY_NAME"
@@ -10175,7 +10595,7 @@ msgid "PHOENIX BASE DISCOVERED"
 msgstr "ODKRYTO BAZĘ PROJEKTU PHOENIX"
 
 msgctxt "Missions/KEY_MISSION_ATTACK_SCAVENGING_SITE_BRIEFING_DESCRIPTION"
-msgid "Eliminate all enemies to claim the resource crates."
+msgid "Take as many items from the crates as you can safely manage and evacuate your squad"
 msgstr "Pozbądź się wszystkich przeciwników, aby przejąć skrzynie z zasobami."
 
 msgctxt "Missions/KEY_MISSION_ATTACK_SCAVENGING_SITE_BRIEFING_NAME"
@@ -10183,7 +10603,7 @@ msgid "SCAVENGING SITE"
 msgstr "RUINY"
 
 msgctxt "Missions/KEY_MISSION_ATTACK_SCAVENGING_SITE_DEFEAT_DESCRIPTION"
-msgid "The site is overrun and any resource crates remaining there are destroyed."
+msgid "The site is overrun and any remaining crates will no longer be recoverable"
 msgstr "Przeciwnicy zajęli to miejsce, a wszelkie pozostałe skrzynie z zasobami zostały zniszczone."
 
 msgctxt "Missions/KEY_MISSION_ATTACK_SCAVENGING_SITE_DEFEAT_NAME"
@@ -10191,7 +10611,7 @@ msgid "SCAVENGING SITE ABANDONED"
 msgstr "OPUSZCZONO RUINY"
 
 msgctxt "Missions/KEY_MISSION_ATTACK_SCAVENGING_SITE_VICTORY_DESCRIPTION"
-msgid "All surviving crates have been recovered and resources transferred to our stores."
+msgid "All collected resource packs have been transferred to our stores"
 msgstr "Udało się nam pozyskać wszystkie pozostałe skrzynie i przenieść zasoby do naszych magazynów."
 
 msgctxt "Missions/KEY_MISSION_ATTACK_SCAVENGING_SITE_VICTORY_NAME"
@@ -10739,7 +11159,7 @@ msgid "AIRCRAFT CAPTURED"
 msgstr "STATEK POWIETRZNY ZOSTAŁ PRZEJĘTY"
 
 msgctxt "Missions/KEY_MISSION_STEAL_FOOD_BRIEFING_DESC"
-msgid "Eliminate enemy forces and prevent damage to food crates to capture them."
+msgid "Take as many items from the crates as you can safely manage and evacuate your squad"
 msgstr "Pokonaj wrogie siły i zapobiegnij zniszczeniu skrzyń z żywnością, aby je przejąć."
 
 msgctxt "Missions/KEY_MISSION_STEAL_FOOD_BRIEFING_NAME"
@@ -10747,7 +11167,7 @@ msgid "RAID FOOD"
 msgstr "ZDOBYWANIE ŻYWNOŚCI"
 
 msgctxt "Missions/KEY_MISSION_STEAL_FOOD_DEFEAT_DESC"
-msgid "No food crates survived the battle."
+msgid "Nothing was gained from the mission"
 msgstr "Wszystkie skrzynie z żywnością zostały zniszczone podczas bitwy."
 
 msgctxt "Missions/KEY_MISSION_STEAL_FOOD_DEFEAT_NAME"
@@ -10755,15 +11175,15 @@ msgid "FOOD RAID FAILURE"
 msgstr "NIEPOWODZENIE MISJI"
 
 msgctxt "Missions/KEY_MISSION_STEAL_FOOD_VICTORY_DESC"
-msgid "All surviving food crates have been recovered, and added to our resources."
+msgid "All collected food resource packs have been transferred to our stores"
 msgstr "Udało się nam odzyskać wszystkie skrzynie z żywnością i włączyć je do naszych zasobów."
 
 msgctxt "Missions/KEY_MISSION_STEAL_FOOD_VICTORY_NAME"
-msgid "FOOD SECURED"
+msgid "RAID MISSION OVER"
 msgstr "UDAŁO SIĘ ZABEZPIECZYĆ ŻYWNOŚĆ"
 
 msgctxt "Missions/KEY_MISSION_STEAL_MATERIALS_BRIEFING_DESC"
-msgid "Eliminate enemy forces and prevent damage to material crates to capture them."
+msgid "Take as many items from the crates as you can safely manage and evacuate your squad"
 msgstr "Pokonaj wrogie siły i zapobiegnij zniszczeniu skrzyń z materiałami, aby je przejąć."
 
 msgctxt "Missions/KEY_MISSION_STEAL_MATERIALS_BRIEFING_NAME"
@@ -10771,7 +11191,7 @@ msgid "RAID MATERIALS"
 msgstr "ZDOBYWANIE MATERIAŁÓW"
 
 msgctxt "Missions/KEY_MISSION_STEAL_MATERIALS_DEFEAT_DESC"
-msgid "No material crates survived the battle."
+msgid "Nothing was gained from the mission"
 msgstr "Wszystkie skrzynie z materiałami zostały zniszczone podczas bitwy."
 
 msgctxt "Missions/KEY_MISSION_STEAL_MATERIALS_DEFEAT_NAME"
@@ -10779,11 +11199,11 @@ msgid "MATERIALS RAID FAILURE"
 msgstr "NIEPOWODZENIE MISJI"
 
 msgctxt "Missions/KEY_MISSION_STEAL_MATERIALS_VICTORY_DESC"
-msgid "All surviving material crates have been recovered, and added to resources."
+msgid "All collected materials resource packs have been transferred to our stores"
 msgstr "Udało się nam odzyskać wszystkie skrzynie z materiałami i włączyć je do naszych zasobów."
 
 msgctxt "Missions/KEY_MISSION_STEAL_MATERIALS_VICTORY_NAME"
-msgid "MATERIALS SECURED"
+msgid "RAID MISSION OVER"
 msgstr "UDAŁO SIĘ ZABEZPIECZYĆ MATERIAŁY"
 
 msgctxt "Missions/KEY_MISSION_STEAL_RESEARCH_BRIEFING_DESC"
@@ -10811,7 +11231,7 @@ msgid "RESEARCH ACQUIRED"
 msgstr "ZDOBYLIŚMY WYNIKI BADAŃ"
 
 msgctxt "Missions/KEY_MISSION_STEAL_TECH_BRIEFING_DESC"
-msgid "Eliminate enemy forces and prevent damage to tech crates to capture them."
+msgid "Take as many items from the crates as you can safely manage and evacuate your squad"
 msgstr "Pokonaj wrogie siły i zapobiegnij zniszczeniu skrzyń z zaawansowanym technologicznie sprzętem, aby je przejąć."
 
 msgctxt "Missions/KEY_MISSION_STEAL_TECH_BRIEFING_NAME"
@@ -10819,7 +11239,7 @@ msgid "RAID TECH"
 msgstr "ZDOBYWANIE SPRZĘTU"
 
 msgctxt "Missions/KEY_MISSION_STEAL_TECH_DEFEAT_DESC"
-msgid "No tech crates survived the battle."
+msgid "Nothing was gained from the mission"
 msgstr "Wszystkie skrzynie z zaawansowanym technologicznie sprzętem zostały zniszczone podczas bitwy."
 
 msgctxt "Missions/KEY_MISSION_STEAL_TECH_DEFEAT_NAME"
@@ -10827,11 +11247,11 @@ msgid "TECH RAID FAILURE"
 msgstr "NIEPOWODZENIE MISJI ZDOBYWANIA SPRZĘTU"
 
 msgctxt "Missions/KEY_MISSION_STEAL_TECH_VICTORY_DESC"
-msgid "All surviving tech crates have been recovered, and added to our resources."
+msgid "All collected tech resource packs have been transferred to our stores"
 msgstr "Udało się nam odzyskać wszystkie skrzynie z zaawansowanym technicznie sprzętem i włączyć je do naszych zasobów."
 
 msgctxt "Missions/KEY_MISSION_STEAL_TECH_VICTORY_NAME"
-msgid "TECH SECURED"
+msgid "RAID MISSION OVER"
 msgstr "UDAŁO SIĘ ZABEZPIECZYĆ SPRZĘT"
 
 msgctxt "Missions/KEY_MISSION_SUMMARY_BACK_GEOSCAPE"
@@ -11063,7 +11483,7 @@ msgid "AMBUSH SURVIVED!"
 msgstr "UDAŁO CI SIĘ PRZETRWAĆ ZASADZKĘ!"
 
 msgctxt "Missions/KEY_MISSION_AMBUSH_VICTORY_BRIEFING_TEXT"
-msgid "YOUR FORCES DENY THE ENEMY."
+msgid "YOUR FORCES HAVE ESCAPED THE AMBUSH!"
 msgstr "TWOJE SIŁY POWSTRZYMUJĄ WROGA."
 
 msgctxt "Missions/KEY_MISSION_AMBUSH_DEFEAT_BRIEFING_NAME"
@@ -11123,7 +11543,7 @@ msgid "All Phoenix Soldiers have lost {0} Stamina."
 msgstr "Wszyscy żołnierze Projektu Phoenix stracili {0} pkt. kondycji."
 
 msgctxt "Missions/KEY_MISSION_OUTCOME_SOLDIER_INJURED_ALL"
-msgid "All Phoenix Soldiers have lost {0} Health."
+msgid "All Phoenix Soldiers have lost {0} Hit Points."
 msgstr "Wszyscy żołnierze Projektu Phoenix stracili {0} pkt. zdrowia."
 
 msgctxt "Missions/KEY_MISSION_OUTCOME_ALIEN_ATTACKS"
@@ -11847,7 +12267,7 @@ msgid "Effective Range is the range in tile positions at which the soldier can e
 msgstr "Efektywny zasięg to zasięg liczony w polach. Z tej odległości żołnierz może spodziewać się, że trafi cel wielkości człowieka w 50% przypadków."
 
 msgctxt "Loading Tips/KEY_TACTICAL_LOADING_TIP_25"
-msgid "The armor level of a body part will prevent that much damage affecting Hit Points e.g. a damage value of 50 against armour of 20 will result in 30 Hit Points lost."
+msgid "The armor level of a body part will prevent that much damage affecting Hit Points e.g. a damage value of 50 against armor of 20 will result in 30 Hit Points lost."
 msgstr "Poziom opancerzenia części ciała wskazuje, w jakim stopniu pancerz zapobiegnie utracie punktów życia, np. zadanie obrażeń w wysokości 50 pkt. w część ciała pokrytą pancerzem zabezpieczającym przed utratą 20 pkt. spowoduje utratę 30 pkt. życia."
 
 msgctxt "Loading Tips/KEY_TACTICAL_LOADING_TIP_26"
@@ -11859,7 +12279,7 @@ msgid "Viral damage will reduce Will Points at the start of your turn, then the 
 msgstr "Obrażenia wirusowe spowodują zmniejszenie liczby punktów woli na początku Twojej tury. W kolejnej turze oddziaływanie wirusa zmniejszy się i zadane obrażenia będą mniejsze i tak dalej, aż wirus całkowicie zniknie."
 
 msgctxt "Loading Tips/KEY_TACTICAL_LOADING_TIP_28"
-msgid "Acid damage attached to body parts will reduce armor by 10 each turn, and  then eat away at the flesh, until no acid damage is left."
+msgid "Acid damage attached to body parts will damage armor first, and then body parts. Remaining acid levels reduce each turn."
 msgstr "Obrażenia od kwasu zadane danej części ciała będą powodować niszczenie pancerza o 10 pkt. w każdej turze, a następnie kwas zacznie wgryzać się w ciało, póki ilość zadawanych obrażeń się nie wyczerpie."
 
 msgctxt "Loading Tips/KEY_TACTICAL_LOADING_TIP_29"
@@ -12095,12 +12515,12 @@ msgid "ROOTS"
 msgstr "KORZENIE"
 
 msgctxt "Body parts/KEY_SHELL"
-msgid "#SHELL"
-msgstr "#SHELL"
+msgid "SHELL"
+msgstr "SKORUPA"
 
 msgctxt "Body parts/KEY_SHELL_DESCRIPTION"
-msgid "#SHELL"
-msgstr "#SHELL"
+msgid "SHELL"
+msgstr "SKORUPA"
 
 msgctxt "Body parts/KEY_SHELL_NAME"
 msgid "SHELL"
@@ -12163,11 +12583,11 @@ msgid "SIDE"
 msgstr "BOK"
 
 msgctxt "Body parts/KEY_VEHICLE_TIRE_DESCRIPTION"
-msgid "Tire"
+msgid "New Jericho Armadillo Wheel"
 msgstr "Opona"
 
 msgctxt "Body parts/KEY_VEHICLE_TIRE_NAME"
-msgid "TIRE"
+msgid "WHEEL"
 msgstr "OPONA"
 
 msgctxt "Body parts/KEY_VEHICLE_TOP_DESCRIPTION"
@@ -12309,6 +12729,26 @@ msgstr "WYBUCHAJĄCY BRZUCH"
 msgctxt "Body parts/KEY_ABDOMEN_BELCHER_DESCRIPTION"
 msgid "Releases multiple spawnlings on death"
 msgstr "Uwalnia wiele glizd po śmierci"
+
+msgctxt "Body parts/KEY_ASPIDA_ARMS_NAME"
+msgid "Midas V Arms"
+msgstr "Ramiona Midas V"
+
+msgctxt "Body parts/KEY_ASPIDA_ARMS_DESCRIPTION"
+msgid "Synedrion Aspida Vehicle Mech Arms"
+msgstr "Mechaniczne ramiona pojazdu Aspidy Synedrionu"
+
+msgctxt "Body parts/KEY_SPAWNERY_EGG_POD_NAME"
+msgid "EGG POD"
+msgstr "KAPSUŁA JAJA"
+
+msgctxt "Body parts/KEY_SPAWNERY_SHELL_NAME"
+msgid "SHELL"
+msgstr "SKORUPA"
+
+msgctxt "Body parts/KEY_SPAWNERY_BODY_NAME"
+msgid "BODY"
+msgstr "CIAŁO"
 
 msgctxt "Equipment/KEY_AMMO_AN_ACID_HANDGUN_DESCRIPTION"
 msgid "Disciples of Anu Acid Handgun Magazine"
