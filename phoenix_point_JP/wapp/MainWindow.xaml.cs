@@ -74,11 +74,11 @@ namespace wapp
             pbat.WaitForExit();
             pbat.Close();
 
-            File.Copy(@"./REPACK/sharedassets0_00001.-240", subpath + @"sharedassets0_00001.-240", true);
-            File.Copy(@"./REPACK/sharedassets0_00002.-240", subpath + @"sharedassets0_00002.-240", true);
-            File.Copy(@"./REPACK/sharedassets0_00003.-240", subpath + @"sharedassets0_00003.-240", true);
-            File.Copy(@"./REPACK/sharedassets0_00004.-240", subpath + @"sharedassets0_00004.-240", true);
-            File.Copy(@"./REPACK/sharedassets0_00006.-240", subpath + @"sharedassets0_00006.-240", true);
+            File.Copy(@"./REPACK/sharedassets0_00001.-244", subpath + @"sharedassets0_00001.-244", true);
+            File.Copy(@"./REPACK/sharedassets0_00002.-244", subpath + @"sharedassets0_00002.-244", true);
+            File.Copy(@"./REPACK/sharedassets0_00003.-244", subpath + @"sharedassets0_00003.-244", true);
+            File.Copy(@"./REPACK/sharedassets0_00004.-244", subpath + @"sharedassets0_00004.-244", true);
+            File.Copy(@"./REPACK/sharedassets0_00006.-244", subpath + @"sharedassets0_00006.-244", true);
 
             Process punityex = new Process();
             punityex.StartInfo.FileName = @".\UnityEX.exe";
